@@ -1,0 +1,54 @@
+name: Update
+
+on:
+  schedule:
+    - cron: '* */1 * * *'
+  push:
+    branches:
+    - main
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Install Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Install requirements
+        run: |
+          pip3 install -U steam[client]
+          pip3 install bs4
+          pip3 install html5lib
+
+      - name: Download saves
+        run: |
+          export TZ='Asia/Shanghai'
+          python3 runner.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} -s ${{ secrets.SHAREDSECRET }} -a ${{ secrets.APIKEY }} -i ${{ secrets.STEAMID }}
+
+      - name: Run safe dir
+        run: |
+          git config --global --add safe.directory /github/workspace
+      
+      - name: Check file change
+        id: check
+        run: |
+          OUTPUT=$(git diff --quiet || echo 'dirty')
+          echo "::set-output name=OUTPUT::$OUTPUT"
+      
+      - name: Push README
+        if: steps.check.outputs.OUTPUT == 'dirty'
+        run: |
+          git config user.name left916
+          git config user.email 1379771811@qq.com
+          git fetch --unshallow origin
+          git add .
+          git commit -m "update"
+          git push
