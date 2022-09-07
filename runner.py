@@ -128,6 +128,8 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
 lastPlayed=get_json_data("lastPlayed.json")
 ownedGames=getSteamOwnedGames()
 user=steamLogin()
+downloadSteamGamesSavesWithGameID(user,"313340","Mountain")
+'''
 for id in ownedGames['response']['games']:
     rtime_last_played={}
     try:
@@ -145,4 +147,4 @@ for id in ownedGames['response']['games']:
         lastPlayed[str(id['appid'])]=rtime_last_played
         
 write_json_data(lastPlayed,"lastPlayed.json")
-
+'''
