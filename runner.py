@@ -1,0 +1,148 @@
+import steam.guard,time
+from base64 import b64decode
+import steam.webauth as wa
+import os,re,json,requests,sys,getopt
+from bs4 import BeautifulSoup
+
+def get_json_data(json_path):
+    try:
+        with open(json_path,'rb') as f:
+            params = json.load(f)
+        f.close()
+    except FileNotFoundError:
+        os.mknod(json_path)
+        params={}
+    except ValueError:
+        params={}
+    return params
+
+def write_json_data(dict,path):
+    with open(path,'w') as r:
+        json.dump(dict,r,indent=4,ensure_ascii=False)
+    r.close()
+
+def getArgv():
+    list={}
+    argv = sys.argv[1:]
+    try:
+        opts,args = getopt.getopt(argv, "u:p:s:a:i:",["userName=","passWord=","sharedSecret=","apiKey=","steamID="])
+    except:
+        print("Error")
+        return list
+    for opt,arg in opts:
+        if opt in ['-u', '--userName']:
+            list['userName']=arg
+        elif opt in ['-p', '--passWord']:
+            list['passWord']=arg
+        elif opt in ['-s', '--sharedSecret']:
+            list['sharedSecret']=arg
+        elif opt in ['-a', '--apiKey']:
+            list['apiKey']=arg
+        elif opt in ['-i', '--steamID']:
+            list['steamID']=arg
+    return list
+
+def steamLogin():
+    argv=getArgv()
+    user = wa.WebAuth(argv['userName'])
+    try:
+        user.login(argv['passWord'])
+    except wa.TwoFactorCodeRequired:
+        t = time.time()
+        user.login(twofactor_code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)))
+    return user
+
+def getSteamOwnedGames():
+    argv=getArgv()
+    try:
+        return json.loads(requests.get('https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key='+argv['apiKey']+'&steamid='+argv['steamID']+'&include_appinfo=true&format=json').text)
+    except:
+        print('getSteamOwnedGames except')
+        return {}
+
+def downloadSteamGamesSavesWithGameID(user,id,gameName):
+    print("Downloading "+gameName+" saves")
+    gameSavesCache=get_json_data(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"gameSavesCache.json")
+    fileNameJson={}
+    fileNameDetailJson={}
+    hasNextPage=True
+    index=0
+    url="https://store.steampowered.com/account/remotestorageapp/?appid="+str(id)
+    while hasNextPage:
+        session=user.session.get(url)
+        soup = BeautifulSoup(session.text, 'html5lib')
+        for idx, tr in enumerate(soup.find_all('tr')):
+            if idx != 0:
+                tds = tr.find_all('td')
+                fileName=tds[1].contents[0][1:-1]
+                try:
+                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] and gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
+                        if fileName.rfind("/")!=-1:
+                            if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
+                                os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
+                        else:
+                            if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName):
+                                os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName)
+                        try:
+                            data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
+                            with open(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                                file.write(data.content)
+                        except Exception as e:
+                            print(e)
+                            pass
+                            continue
+                        fileNameDetailJson['size']=tds[2].contents[0][1:-1]
+                        fileNameDetailJson['time']=tds[3].contents[0][1:]
+                        fileNameJson[fileName]=fileNameDetailJson
+                        gameSavesCache[str(id)]=fileNameJson
+                    else:
+                        print("Skip "+fileName)
+                except:
+                    print("except")
+                    if fileName.rfind("/")!=-1:
+                        if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
+                            os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
+                    else:
+                        if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName):
+                            os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName)
+                    try:
+                        data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
+                        with open(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                            file.write(data.content)
+                    except Exception as e:
+                        print(e)
+                        pass
+                        continue
+                    fileNameDetailJson['size']=tds[2].contents[0][1:-1]
+                    fileNameDetailJson['time']=tds[3].contents[0][1:]
+                    fileNameJson[fileName]=fileNameDetailJson
+                    gameSavesCache[str(id)]=fileNameJson
+        matchNextPage=re.search('https://store.steampowered.com/account/remotestorageapp\?appid='+id+'&index=\d+',session.text)
+        if matchNextPage and int(matchNextPage.group()[len("https://store.steampowered.com/account/remotestorageapp?appid="+id+"&index="):]):
+            hasNextPage=True
+            url=matchNextPage.group()
+        else:
+            break
+    write_json_data(gameSavesCache, os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"gameSavesCache.json")
+
+lastPlayed=get_json_data(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
+ownedGames=getSteamOwnedGames()
+user=steamLogin()
+for id in ownedGames['response']['games']:
+    rtime_last_played={}
+    try:
+        if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0:         
+            downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
+            rtime_last_played['name']=id['name']
+            rtime_last_played['rtime_last_played']=id['rtime_last_played']
+            lastPlayed[str(id['appid'])]=rtime_last_played
+        else:
+            print("Skip "+id['name'])
+    except:
+        downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
+        rtime_last_played['name']=id['name']
+        rtime_last_played['rtime_last_played']=id['rtime_last_played']
+        lastPlayed[str(id['appid'])]=rtime_last_played
+        
+write_json_data(lastPlayed,os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
+
