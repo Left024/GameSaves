@@ -126,6 +126,7 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
     write_json_data(gameSavesCache, os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"gameSavesCache.json")
 
 lastPlayed=get_json_data(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
+print(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
 ownedGames=getSteamOwnedGames()
 user=steamLogin()
 for id in ownedGames['response']['games']:
