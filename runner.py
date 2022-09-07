@@ -62,7 +62,7 @@ def getSteamOwnedGames():
 
 def downloadSteamGamesSavesWithGameID(user,id,gameName):
     print("Downloading "+gameName+" saves")
-    gameSavesCache=get_json_data(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"gameSavesCache.json")
+    gameSavesCache=get_json_data("gameSavesCache.json")
     fileNameJson={}
     fileNameDetailJson={}
     hasNextPage=True
@@ -78,14 +78,14 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                 try:
                     if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] and gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
                         if fileName.rfind("/")!=-1:
-                            if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
-                                os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
+                            if not os.path.exists("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
+                                os.makedirs("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
                         else:
-                            if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName):
-                                os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName)
+                            if not os.path.exists("SteamSaves/"+gameName):
+                                os.makedirs("SteamSaves/"+gameName)
                         try:
                             data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
-                            with open(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                            with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
                                 file.write(data.content)
                         except Exception as e:
                             print(e)
@@ -100,14 +100,14 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                 except:
                     print("except")
                     if fileName.rfind("/")!=-1:
-                        if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
-                            os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
+                        if not os.path.exists("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
+                            os.makedirs("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
                     else:
-                        if not os.path.exists(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName):
-                            os.makedirs(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName)
+                        if not os.path.exists("SteamSaves/"+gameName):
+                            os.makedirs("SteamSaves/"+gameName)
                     try:
                         data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
-                        with open(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                        with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
                             file.write(data.content)
                     except Exception as e:
                         print(e)
@@ -123,10 +123,9 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
             url=matchNextPage.group()
         else:
             break
-    write_json_data(gameSavesCache, os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"gameSavesCache.json")
+    write_json_data(gameSavesCache, "gameSavesCache.json")
 
-lastPlayed=get_json_data(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
-print(os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
+lastPlayed=get_json_data("lastPlayed.json")
 ownedGames=getSteamOwnedGames()
 user=steamLogin()
 for id in ownedGames['response']['games']:
@@ -145,5 +144,5 @@ for id in ownedGames['response']['games']:
         rtime_last_played['rtime_last_played']=id['rtime_last_played']
         lastPlayed[str(id['appid'])]=rtime_last_played
         
-write_json_data(lastPlayed,os.path.realpath(__file__)[0:os.path.realpath(__file__).rfind("/")+1]+"lastPlayed.json")
+write_json_data(lastPlayed,"lastPlayed.json")
 
