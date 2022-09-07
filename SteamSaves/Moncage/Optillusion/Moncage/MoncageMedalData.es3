@@ -1,0 +1,66 @@
+{
+	"Medal0_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal1_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal2_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal3_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal4_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal5_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal6_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal7_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal8_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal9_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal10_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal11_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal12_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal13_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Medal14_isUnlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SAVING_DATA_IS_COMPLETE" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}

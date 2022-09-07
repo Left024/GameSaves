@@ -1,0 +1,32 @@
+<root>
+<keybind action="JUMP" key="0x39"/>
+<keybind action="SHOOT" key="0x100"/>
+<keybind action="RELOAD" key="0x13"/>
+<keybind action="TURBOBOOST" key="0x2a"/>
+<keybind action="ABORT_VIDEO_CONFIRM" key="0x1c"/>
+<keybind action="TOGGLE_MANUSCRIPT" key="0x3f"/>
+<keybind action="TOGGLE_MENU" key="0x1"/>
+<keybind action="INVENTORY_UP" key="0x3"/>
+<keybind action="INVENTORY_RIGHT" key="0x2"/>
+<keybind action="INVENTORY_DOWN" key="0x5"/>
+<keybind action="INVENTORY_LEFT" key="0x4"/>
+<keybind action="INVENTORY_EXTRA" key="0x6"/>
+<keybind action="USE" key="0x12"/>
+<keybind action="THROW_ITEM" key="0x101"/>
+<keybind action="TOGGLE_SIDE" key="0xf"/>
+<keybind action="RELOAD_BATTERY" key="0x10"/>
+<keybind action="LIGHT_BOOST" key="0x102"/>
+<keybind action="LOOK_AT" key="0x21"/>
+<keybind action="MENU_A" key="0x1c"/>
+<keybind action="MENU_B" key="0x1"/>
+<keybind action="MENU_START" key="0x1"/>
+<keybind action="MENU_PADUP" key="0x48"/>
+<keybind action="MENU_PADDOWN" key="0x50"/>
+<keybind action="MENU_PADLEFT" key="0x4b"/>
+<keybind action="MENU_PADRIGHT" key="0x4d"/>
+<keybind action="MOVE_FORWARD" key="0x11"/>
+<keybind action="MOVE_BACKWARD" key="0x1f"/>
+<keybind action="MOVE_LEFT" key="0x1e"/>
+<keybind action="MOVE_RIGHT" key="0x20"/>
+<keybind action="WALK" key="0x1d"/>
+</root>

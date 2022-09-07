@@ -1,0 +1,1500 @@
+{
+	"Car_Truck_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Car_Truck_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Car_Truck_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Trapdoor_Bridge_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Trapdoor_Bridge_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Trapdoor_Bridge_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Lamp_Lifter_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Lamp_Lifter_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Lamp_Lifter_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Pivot_Wheel_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Pivot_Wheel_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Pivot_Wheel_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Door_Plank_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Door_Plank_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Door_Plank_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Lock_Pedal_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Lock_Pedal_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Lock_Pedal_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Elevator_Roller_Roller_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Elevator_Roller_Roller_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Elevator_Roller_Roller_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Grab_Excavator_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Grab_Excavator_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Grab_Excavator_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Slider_Slider_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Slider_Slider_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Slider_Slider_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"DropPipe_Trashbin_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"DropPipe_Trashbin_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DropPipe_Trashbin_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"DropPipe_BrokenVase_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"DropPipe_BrokenVase_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DropPipe_BrokenVase_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"TVCable_FanCable_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"TVCable_FanCable_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"TVCable_FanCable_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Canopy_Hammock_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Canopy_Hammock_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Canopy_Hammock_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Writepad_Writepad_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Writepad_Writepad_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Writepad_Writepad_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Ladder_StorageBox_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Ladder_StorageBox_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Ladder_StorageBox_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Train_Train_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Train_Train_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Train_Train_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Balance_Crane_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Balance_Crane_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Balance_Crane_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Island_Painting_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Island_Painting_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Island_Painting_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"CableCarRoller_Roller_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"CableCarRoller_Roller_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"CableCarRoller_Roller_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"CableCar_BabyCarriage_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"CableCar_BabyCarriage_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"CableCar_BabyCarriage_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"OilMeter_Compass_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"OilMeter_Compass_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"OilMeter_Compass_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"LaunchBridge_Bed_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"LaunchBridge_Bed_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"LaunchBridge_Bed_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Ship_Ship_Ship_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Ship_Ship_Ship_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Ship_Ship_Ship_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Dock_Bridge_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Dock_Bridge_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Dock_Bridge_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SketchBook_GraveStone_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SketchBook_GraveStone_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SketchBook_GraveStone_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Curtain_Building_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Curtain_Building_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Curtain_Building_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"OutsideDesk_Desk_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"OutsideDesk_Desk_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"OutsideDesk_Desk_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InsideDesk_Desk_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"InsideDesk_Desk_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InsideDesk_Desk_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"BrokenPipe_Can_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BrokenPipe_Can_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"BrokenPipe_Can_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Gun_CleaningTools__LidClose_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Gun_CleaningTools__LidClose_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Gun_CleaningTools__LidClose_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Gun_CleaningTools__LidOpen_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Gun_CleaningTools__LidOpen_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Gun_CleaningTools__LidOpen_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ToyTarget_PlankTarget_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ToyTarget_PlankTarget_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ToyTarget_PlankTarget_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ToyTarget_TargetShadow_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ToyTarget_TargetShadow_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ToyTarget_TargetShadow_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Poster_Hollow_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Poster_Hollow_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Poster_Hollow_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Rostrum_Table_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Rostrum_Table_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Rostrum_Table_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Lamp_Moon_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Lamp_Moon_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Lamp_Moon_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Sign_Banner_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Sign_Banner_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Sign_Banner_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Radio_Antenna_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Radio_Antenna_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Radio_Antenna_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Wall_Shield_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Wall_Shield_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Wall_Shield_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Chandelier_WaterTankStand_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Chandelier_WaterTankStand_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Chandelier_WaterTankStand_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Flume_CandleHolder_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Flume_CandleHolder_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Flume_CandleHolder_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Tank_CandleHolder_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Tank_CandleHolder_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Tank_CandleHolder_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Dam_OutFall_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Dam_OutFall_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Dam_OutFall_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Bridge_BrokenShield_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Bridge_BrokenShield_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Bridge_BrokenShield_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"BridgeReflection_BrokenShield_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BridgeReflection_BrokenShield_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"BridgeReflection_BrokenShield_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Banner_Vase_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Banner_Vase_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Banner_Vase_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Fountain_Pipe_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Fountain_Pipe_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Fountain_Pipe_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Bridge_Walkway_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Bridge_Walkway_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Bridge_Walkway_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Port_Cart_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Port_Cart_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Port_Cart_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Rack_Pump_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Rack_Pump_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Rack_Pump_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Light_Sun_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Light_Sun_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Light_Sun_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Bench_Trapdoor_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Bench_Trapdoor_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Bench_Trapdoor_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Pickaxe_Tools_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Pickaxe_Tools_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Pickaxe_Tools_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Well_Missile_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Well_Missile_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Well_Missile_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Banner_Carpet_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Banner_Carpet_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Banner_Carpet_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"BeerMachine_Bottle_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BeerMachine_Bottle_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BeerMachine_Bottle_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Hourglass_BellTower_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Hourglass_BellTower_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Hourglass_BellTower_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"BellTower_Confessional_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BellTower_Confessional_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BellTower_Confessional_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Shadow_Table_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Shadow_Table_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Shadow_Table_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Frame_Frame_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Frame_Frame_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Frame_Frame_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Outside_B8Final_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Outside_B8Final_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Outside_B8Final_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Outside_D5Final_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Outside_D5Final_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Outside_D5Final_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Outside_A2Final_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Outside_A2Final_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Outside_A2Final_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Outside_C1Final_isBlocked" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Outside_C1Final_cancelHighlight" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Outside_C1Final_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionWaterPumpHandle_E5_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionWaterPumpHandle_E5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTrapdoorLeftHandle_E5_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTrapdoorLeftHandle_E5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTrapdoorRightHandle_E5_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTrapdoorRightHandle_E5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionWaterTankHandle_B5_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionWaterTankHandle_B5_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"TramCarDownHandle0_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"TramCarDownHandle0_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTramCarUpHandle0_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTramCarUpHandle0_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTramCarDownHandle2_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTramCarDownHandle2_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTramCarUpHandle2_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTramCarUpHandle2_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTramCarDownHandle4_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTramCarDownHandle4_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionTramCarUpHandle4_C7_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionTramCarUpHandle4_C7_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InteractionStopper_D6_isBlocked" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"InteractionStopper_D6_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneE5_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneE5_currentMoveState" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneE5_currentFogGroupIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneE5_dayOrNight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneA4_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneA4_currentMoveState" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneA4_currentFogGroupIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneA4_dayOrNight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneB5_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneB5_currentMoveState" : {
+		"__type" : "int",
+		"value" : 4
+	},
+	"SceneB5_currentFogGroupIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneB5_dayOrNight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneC7_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneC7_currentMoveState" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneC7_currentFogGroupIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneC7_dayOrNight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneD6_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneD6_currentMoveState" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SceneD6_currentFogGroupIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneD6_dayOrNight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ANM_BombInCommandRoomGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterStart_IDLE"
+	},
+	"ANM_MapGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterTramcar_IDLE"
+	},
+	"ANM_TokenBlastGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterStart_IDLE"
+	},
+	"ANM_WaterTankAndWaterPumpGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_WaterPipeGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_TrapdoorLeftGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_TrapdoorRightGroup_E5_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_RostrumGroup_A4_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterStart_IDLE"
+	},
+	"ANM_BulletGroup_A4_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterStart_IDLE"
+	},
+	"ANM_BombInChurchGroup_A4_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_CarAndDoorGroup_B5_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterStart_IDLE"
+	},
+	"ANM_WaterTankGroup_B5_currentStateName" : {
+		"__type" : "string",
+		"value" : "AfterOn_IDLE"
+	},
+	"ANM_BombInCampGroup_B5_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_BannerGroup_C7_currentStateName" : {
+		"__type" : "string",
+		"value" : "Fall"
+	},
+	"ANM_TramCarAndBridgeGroup_C7_currentStateName" : {
+		"__type" : "string",
+		"value" : "RightToEndPart2"
+	},
+	"ANM_IcePlaneSegGroup_C7_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE_LOOP"
+	},
+	"ANM_VaseGroup_D6_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_PickaxeAndBarrelLidGroup_D6_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"ANM_StopperAndBeerGroup_D6_currentStateName" : {
+		"__type" : "string",
+		"value" : "IDLE"
+	},
+	"Zoom_1_E5_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Zoom_2_E5_phase" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Zoom_3_E5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Zoom_5_E5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Zoom_0_A4_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Zoom_4_B5_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Zoom_0_D6_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Zoom_2_D6_phase" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Mask0_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask0_isInZoom" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Mask0_storedOutMoveList" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+			
+		]
+	},
+	"Mask1_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask1_isInZoom" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask1_storedOutMoveList" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+			1
+		]
+	},
+	"Mask2_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask2_isInZoom" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask2_storedOutMoveList" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+			2
+		]
+	},
+	"Mask3_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask3_isInZoom" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Mask3_storedOutMoveList" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+			
+		]
+	},
+	"Mask4_isActive" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Mask4_isInZoom" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Mask4_storedOutMoveList" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+			
+		]
+	},
+	"SceneE1Extra_waterIsUp" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneE3Extra_boatDirection" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneE5Extra_mapIsBurnt" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneE7Extra_sandIsEmpty" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneA2Extra_roomIsBright" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneA2Extra_missileIsLaunched" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneA2Extra_speed" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"SceneA3Extra_plankTargetWrongHoleIsActive" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneA3Extra_humanTargetWrongHoleIsActive" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneB1Extra_lampConnectionIsFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneB6Extra_currentState" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneB6Extra_televisionIsOn" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneB6Extra_calendarTearCount" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"SceneB7Extra_trapdoorConnectionIsFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneC1Extra_currentZoneIndex" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SceneC1Extra_tramCarIsFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneC1Extra_gramArmPuzzleHasBeenFailed" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneC7Extra_bannerIsDown" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneC7Extra_waterIsUp" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SceneC8Extra_currentZoneIndex" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SceneD1Extra_lighthouseIsRunning" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneD5Extra_bombIsFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneD7Extra_televisionIsOn" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneD7Extra_channelIsChanged" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SceneD7Extra_bottleIsFall" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BgmIndex" : {
+		"__type" : "int",
+		"value" : 2
+	},
+	"SolutionVideo_0_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_1_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_2_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_3_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_4_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_5_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_6_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_7_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_8_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_9_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_10_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_11_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_12_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_13_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_14_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_15_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_16_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_17_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_18_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_19_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_20_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_21_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_22_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_23_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_24_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_25_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_26_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_27_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_28_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_29_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_30_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_31_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_32_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_33_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_34_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_35_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_36_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_37_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_38_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_39_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_40_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_41_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_42_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_43_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_44_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_45_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_46_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_47_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_48_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_49_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_50_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_51_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_52_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"SolutionVideo_53_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_54_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_55_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_56_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_57_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_58_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_59_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_60_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_61_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_62_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SolutionVideo_63_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"CurrentSolutionVideoID" : {
+		"__type" : "int",
+		"value" : 34
+	},
+	"InitialCubeFaceDirection" : {
+		"__type" : "int",
+		"value" : 4
+	},
+	"CURRENT_LAP_TIME" : {
+		"__type" : "float",
+		"value" : 1228.877
+	},
+	"GAME_LAP" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"GAME_TOTAL_TIME" : {
+		"__type" : "float",
+		"value" : 17947.54
+	},
+	"SAVING_DATA_IS_COMPLETE" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}

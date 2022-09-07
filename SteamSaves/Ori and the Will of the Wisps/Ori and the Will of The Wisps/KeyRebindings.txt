@@ -1,0 +1,62 @@
+Keyboard Rebindings
+--------
+Activate Key Rebinding: True
+--------
+Movement Left: A, None, LeftArrow, None
+Movement Right: D, None, RightArrow, None
+Movement Down: S, None, DownArrow, None
+Movement Up: W, None, UpArrow, None
+SaveCopy: C
+SaveDelete: Delete
+Interact: E, Return, X, None
+Jump: Space, None, None, None
+Ability1: Mouse0, None, Z, None
+Ability2: E, Mouse3, X, None
+Ability3: R, Mouse4, C, None
+Glide: LeftShift, None, RightShift, None
+Grab: LeftShift, None, RightShift, None
+Dash: LeftControl, Mouse2, RightControl, None
+Burrow: LeftControl, Mouse2, RightControl, None
+Bash: Mouse1, None, F, None
+Grapple: Mouse1, None, F, None
+DialogueAdvance: Mouse0, Mouse1, Space, Return
+DialogueOption1: Alpha1, Keypad1, Z, None
+DialogueOption2: Alpha2, Keypad2, X, None
+DialogueOption3: Alpha3, Keypad3, C, None
+DialogueExit: Escape, None, None, None
+OpenMapsShardsInventory: Tab, None, None, None
+OpenInventory: I, None, None, None
+OpenWorldMap: W, None, None, None
+OpenAreaMap: M, None, None, None
+OpenShardsScreen: H, None, None, None
+OpenWeaponWheel: Q, None, None, None
+OpenPauseScreen: Escape, None, None, None
+OpenLiveSignIn: X, None, None, None
+MapZoomIn: RightShift, None, LeftShift, None
+MapZoomOut: RightControl, None, LeftControl, None
+MenuSelect: Space, Return, KeypadEnter, None
+MenuBack: Escape, None, None, None
+MenuClose: Escape, None, None, None
+MenuDown: S, None, DownArrow, None
+MenuUp: W, None, UpArrow, None
+MenuLeft: A, None, LeftArrow, None
+MenuRight: D, None, RightArrow, None
+MenuPageLeft: Q, None, PageUp, None
+MenuPageRight: E, None, PageDown, None
+LeaderboardCycleFilter: F, None, None, None
+MapFilter: Mouse1, None, F, None
+MapDetails: L, None, B, None
+MapFocusOri: J, None, None, None
+MapFocusObjective: J, None, None, None
+--------
+Usage:
+- There is no guarantee of the game still being playable after key rebinding. Please use with caution and delete this file in case of breakage
+- Spelling and syntactical errors will result in the key rebindings not registering properly, and the game will get set to default
+- Deleting this file will result in this file being recreated by the game, containing the default settings
+--------
+Don't forget to restart the game after editing this file!
+Don't forget to close this file before restarting the game!
+--------
+Mouse0 is left mouse button
+Mouse1 is right mouse button
+AlphaX is the number X on the keyboard (not num pad, the stuff above your keys)

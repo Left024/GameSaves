@@ -1,0 +1,246 @@
+{
+	"Photo0_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo0_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo1_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo1_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo2_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo2_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo3_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo3_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo4_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo4_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo5_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo5_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo6_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo6_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo7_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo7_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo8_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo8_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo9_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo9_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo10_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo10_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo11_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo11_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo12_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo12_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo13_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo13_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo14_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo14_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo15_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo15_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo16_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo16_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo17_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo17_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo18_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo18_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo19_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo19_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo20_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo20_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo21_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo21_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo22_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo22_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo23_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo23_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo24_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo24_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo25_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo25_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo26_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo26_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Photo27_isFound" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Photo27_isFoundThisLap" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"FinalCNT0_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"FinalCNT1_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"FinalCNT2_isFinished" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"FinalCNT3_isFinished" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"SAVING_DATA_IS_COMPLETE" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"MusicVolume" : {
+		"__type" : "float",
+		"value" : 0.152403161
+	},
+	"SoundVolume" : {
+		"__type" : "float",
+		"value" : 0.142357171
+	},
+	"Sensitivity" : {
+		"__type" : "float",
+		"value" : 2.5
+	},
+	"CursorSpeed" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"HintModeIndex" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Language" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Quality" : {
+		"__type" : "int",
+		"value" : 2
+	},
+	"FrameRate" : {
+		"__type" : "int",
+		"value" : -1
+	}
+}
