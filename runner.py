@@ -83,14 +83,24 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                         else:
                             if not os.path.exists("SteamSaves/"+gameName):
                                 os.makedirs("SteamSaves/"+gameName)
-                        try:
-                            data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
-                            with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
-                                file.write(data.content)
-                        except Exception as e:
-                            print(e)
-                            pass
-                            continue
+                        attempts = 0
+                        success = False
+                        while attempts < 6 and not success:
+                            try:
+                                data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
+                                with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                                    file.write(data.content)
+                                success=True
+                            except Exception as e:
+                                print(e)
+                                attempts += 1
+                                if attempts == 5:
+                                    break
+                                else:
+                                    time.sleep(10)
+                                    print("Retry download "+fileName+" ("+attempts+")")
+                                #pass
+                                #continue
                         fileNameDetailJson['size']=tds[2].contents[0][1:-1]
                         fileNameDetailJson['time']=tds[3].contents[0][1:]
                         fileNameJson[fileName]=fileNameDetailJson
@@ -105,22 +115,35 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                     else:
                         if not os.path.exists("SteamSaves/"+gameName):
                             os.makedirs("SteamSaves/"+gameName)
-                    try:
-                        data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
-                        with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
-                            file.write(data.content)
-                    except Exception as e:
-                        print(e)
-                        pass
-                        continue
+                    attempts = 0
+                    success = False
+                    while attempts < 6 and not success:
+                        try:
+                            data = requests.get(re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(tds[4])).group())
+                            with open("SteamSaves/"+gameName+"/"+tds[1].contents[0][1:-1], 'wb')as file:
+                                file.write(data.content)
+                            success=True
+                        except Exception as e:
+                            print(e)
+                            attempts += 1
+                            if attempts == 5:
+                                break
+                            else:
+                                time.sleep(10)
+                                print("Retry download "+fileName+" ("+attempts+")")
                     fileNameDetailJson['size']=tds[2].contents[0][1:-1]
                     fileNameDetailJson['time']=tds[3].contents[0][1:]
                     fileNameJson[fileName]=fileNameDetailJson
                     gameSavesCache[str(id)]=fileNameJson
-        matchNextPage=re.search('https://store.steampowered.com/account/remotestorageapp\?appid='+id+'&index=\d+',session.text)
-        if matchNextPage and int(matchNextPage.group()[len("https://store.steampowered.com/account/remotestorageapp?appid="+id+"&index="):]):
-            hasNextPage=True
-            url=matchNextPage.group()
+        matchNextPage=re.findall('https://store.steampowered.com/account/remotestorageapp\?appid='+id+'&index=\d+',session.text)
+        if len(matchNextPage)>0:
+            for x in range(len(matchNextPage)):
+                if int(matchNextPage[x][len("https://store.steampowered.com/account/remotestorageapp?appid="+id+"&index="):])>index:
+                    hasNextPage=True
+                    url=matchNextPage[x]
+                    index=int(matchNextPage[x][len("https://store.steampowered.com/account/remotestorageapp?appid="+id+"&index="):])
+                else:
+                    hasNextPage=False
         else:
             break
     write_json_data(gameSavesCache, "gameSavesCache.json")
