@@ -2,7 +2,7 @@ name: Update
 
 on:
   schedule:
-    - cron: '* */1 * * *'
+    - cron: '*/60 * * * *'
   push:
     branches:
     - main
