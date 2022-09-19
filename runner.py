@@ -67,10 +67,10 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
     index=0
     url="https://store.steampowered.com/account/remotestorageapp/?appid="+str(id)
     while hasNextPage:
+        fileNameJson={}
         session=user.session.get(url)
         soup = BeautifulSoup(session.text, 'html5lib')
         for idx, tr in enumerate(soup.find_all('tr')):
-            fileNameJson={}
             fileNameDetailJson={}
             if idx != 0:
                 tds = tr.find_all('td')
