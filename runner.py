@@ -63,8 +63,6 @@ def getSteamOwnedGames():
 def downloadSteamGamesSavesWithGameID(user,id,gameName):
     print("Downloading "+gameName+" saves")
     gameSavesCache=get_json_data("gameSavesCache.json")
-    fileNameJson={}
-    fileNameDetailJson={}
     hasNextPage=True
     index=0
     url="https://store.steampowered.com/account/remotestorageapp/?appid="+str(id)
@@ -72,6 +70,8 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
         session=user.session.get(url)
         soup = BeautifulSoup(session.text, 'html5lib')
         for idx, tr in enumerate(soup.find_all('tr')):
+            fileNameJson={}
+            fileNameDetailJson={}
             if idx != 0:
                 tds = tr.find_all('td')
                 fileName=tds[1].contents[0][1:-1]
