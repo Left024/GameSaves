@@ -76,7 +76,7 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                 tds = tr.find_all('td')
                 fileName=tds[1].contents[0][1:-1]
                 try:
-                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] and gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
+                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] or gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
                         if fileName.rfind("/")!=-1:
                             if not os.path.exists("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
                                 os.makedirs("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
