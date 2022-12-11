@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: main
 
-      - name: Install Python 3.9
-        uses: actions/setup-python@v1
+      - name: Install Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.9
+          python-version: 3.10
 
       - name: Install requirements
         run: |
@@ -41,10 +41,10 @@ jobs:
         id: check
         run: |
           OUTPUT=$(git status -s)
-          echo "::set-output name=OUTPUT::$OUTPUT"
+          echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
       
       - name: Push files
-        if: steps.check.outputs.OUTPUT != ''
+        if: $GITHUB_OUTPUT != ''
         run: |
           git config user.name left916
           git config user.email 1379771811@qq.com
