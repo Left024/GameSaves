@@ -44,7 +44,7 @@ jobs:
           echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
       
       - name: Push files
-        if: steps.check.outputs.GITHUB_OUTPUT != ''
+        if: steps.check.outputs.OUTPUT != ''
         run: |
           git config user.name left916
           git config user.email 1379771811@qq.com
