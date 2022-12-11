@@ -41,8 +41,10 @@ jobs:
         id: check
         run: |
           OUTPUT=$(git status -s)
+          echo $OUTPUT
           OUTPUT=$(echo $OUTPUT | tr '\n' ' ')
           echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
+          echo $OUTPUT
       
       - name: Push files
         if: steps.check.outputs.OUTPUT != ''
