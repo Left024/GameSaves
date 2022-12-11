@@ -40,8 +40,7 @@ jobs:
       - name: Check file change
         id: check
         run: |
-          OUTPUT=$(git status -s)
-          echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
+          echo "OUTPUT=$(git status -s)" >> $GITHUB_OUTPUT
       
       - name: Push files
         if: steps.check.outputs.OUTPUT != ''
