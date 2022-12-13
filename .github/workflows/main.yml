@@ -41,7 +41,7 @@ jobs:
         id: check
         run: |
           OUTPUT=$(git diff --quiet .)
-          OUTPUT=$(echo $OUTPUT | tr '\n' '')
+          #OUTPUT=$(echo $OUTPUT | tr '\n' '')
           echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
       
       - name: Push files
