@@ -40,7 +40,7 @@ jobs:
       - name: Check file change
         id: check
         run: |
-          OUTPUT=$(git diff .)
+          OUTPUT=$(git diff --quiet .)
           OUTPUT=$(echo $OUTPUT | tr '\n' '')
           echo "OUTPUT=$OUTPUT" >> $GITHUB_OUTPUT
       
