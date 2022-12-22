@@ -150,12 +150,12 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
 
 lastPlayed=get_json_data("lastPlayed.json")
 ownedGames=getSteamOwnedGames()
-user=steamLogin()
+
 for id in ownedGames['response']['games']:
     rtime_last_played={}
     try:
         if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid']!=313340:         
-            
+            user=steamLogin()
             downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
@@ -164,7 +164,7 @@ for id in ownedGames['response']['games']:
             print("Skip "+id['name'])
     except:
         if id['appid']!=313340:
-            
+            user=steamLogin()
             downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
