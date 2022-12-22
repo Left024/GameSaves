@@ -24,7 +24,7 @@ jobs:
 
       - name: Install requirements
         run: |
-          pip3 install -U steam[client]
+          pip3 install -U steam
           pip3 install bs4
           pip3 install html5lib
 
