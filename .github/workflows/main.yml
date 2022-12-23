@@ -31,6 +31,7 @@ jobs:
       - name: Download saves
         run: |
           export TZ='Asia/Shanghai'
+          python3 -m steam.versions_report
           python3 runner.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} -s ${{ secrets.SHAREDSECRET }} -a ${{ secrets.APIKEY }} -i ${{ secrets.STEAMID }}
 
       - name: Run safe dir
