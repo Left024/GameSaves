@@ -3,6 +3,7 @@ from base64 import b64decode
 import steam.webauth as wa
 import os,re,json,requests,sys,getopt
 from bs4 import BeautifulSoup
+from steam.client import SteamClient
 
 def get_json_data(json_path):
     try:
@@ -60,7 +61,7 @@ def getSteamOwnedGames():
         print('getSteamOwnedGames except')
         return {}
 
-def downloadSteamGamesSavesWithGameID(user,id,gameName):
+def downloadSteamGamesSavesWithGameID(session,id,gameName):
     print("Downloading "+gameName+" saves")
     gameSavesCache=get_json_data("gameSavesCache.json")
     hasNextPage=True
@@ -68,15 +69,16 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
     url="https://store.steampowered.com/account/remotestorageapp/?appid="+str(id)
     while hasNextPage:
         fileNameJson={}
-        session=user.session.get(url)
-        soup = BeautifulSoup(session.text, 'html5lib')
+        #session=user.session.get(url)
+        res=session.get(url)
+        soup = BeautifulSoup(res.text, 'html5lib')
         for idx, tr in enumerate(soup.find_all('tr')):
             fileNameDetailJson={}
             if idx != 0:
                 tds = tr.find_all('td')
                 fileName=tds[1].contents[0][1:-1]
                 try:
-                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] or gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
+                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] and gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
                         if fileName.rfind("/")!=-1:
                             if not os.path.exists("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
                                 os.makedirs("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
@@ -135,7 +137,7 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
                     fileNameDetailJson['time']=tds[3].contents[0][1:]
                     fileNameJson[fileName]=fileNameDetailJson
                     gameSavesCache[str(id)]=fileNameJson
-        matchNextPage=re.findall('https://store.steampowered.com/account/remotestorageapp\?appid='+id+'&index=\d+',session.text)
+        matchNextPage=re.findall('https://store.steampowered.com/account/remotestorageapp\?appid='+id+'&index=\d+',res.text)
         if len(matchNextPage)>0:
             for x in range(len(matchNextPage)):
                 if int(matchNextPage[x][len("https://store.steampowered.com/account/remotestorageapp?appid="+id+"&index="):])>index:
@@ -151,12 +153,18 @@ def downloadSteamGamesSavesWithGameID(user,id,gameName):
 lastPlayed=get_json_data("lastPlayed.json")
 ownedGames=getSteamOwnedGames()
 
+client = SteamClient()
+argv=getArgv()
+t = time.time()
+client.login(two_factor_code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)), username=argv['userName'], password=argv['passWord'])
+
 for id in ownedGames['response']['games']:
     rtime_last_played={}
     try:
         if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid']!=313340:         
-            user=steamLogin()
-            downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
+            client.idle()
+            session=client.get_web_session()
+            downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
             lastPlayed[str(id['appid'])]=rtime_last_played
@@ -164,8 +172,9 @@ for id in ownedGames['response']['games']:
             print("Skip "+id['name'])
     except:
         if id['appid']!=313340:
-            user=steamLogin()
-            downloadSteamGamesSavesWithGameID(user,str(id['appid']),str(id['name']))
+            client.idle()
+            session=client.get_web_session()
+            downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
             lastPlayed[str(id['appid'])]=rtime_last_played

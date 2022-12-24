@@ -1,8 +1,8 @@
 name: Update
 
 on:
-  #schedule:
-  #  - cron: '*/60 * * * *'
+  schedule:
+    - cron: '*/60 * * * *'
   push:
     branches:
     - main
@@ -24,15 +24,15 @@ jobs:
 
       - name: Install requirements
         run: |
-          pip install "git+https://github.com/ValvePython/steam#egg=steam[client]"
-          pip install bs4
-          pip install html5lib
+          pip3 install "git+https://github.com/ValvePython/steam#egg=steam[client]"
+          pip3 install bs4
+          pip3 install html5lib
 
       - name: Download saves
         run: |
           export TZ='Asia/Shanghai'
-          python -m steam.versions_report
-          python runner.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} -s ${{ secrets.SHAREDSECRET }} -a ${{ secrets.APIKEY }} -i ${{ secrets.STEAMID }}
+          #python3 -m steam.versions_report
+          python3 runner.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} -s ${{ secrets.SHAREDSECRET }} -a ${{ secrets.APIKEY }} -i ${{ secrets.STEAMID }}
 
       - name: Run safe dir
         run: |
