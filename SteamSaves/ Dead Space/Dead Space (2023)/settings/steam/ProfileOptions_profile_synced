@@ -1,0 +1,16 @@
+GstInput.BWOptionsOptionId_UseToggleAim 0
+GstInput.BWOptionsOptionId_UseToggleSprint 1
+GstInput.ButtonPromptScheme 0
+GstInput.ButtonPromptStyle 11
+GstInput.CameraPitchSpeed 50.000000
+GstInput.CameraYawSpeed 50.000000
+GstInput.DeadzoneCenter 0.200000
+GstInput.DeadzoneTrigger 0.000000
+GstInput.GamepadPreset 0
+GstInput.MapZoomHoldMode 0
+GstInput.MouseSensitivity 0.500000
+GstInput.RigLinkCloseMode 0
+GstInput.SensitivityStick 0.000000
+GstInput.SensitivityTrigger 0.000000
+GstInput.UseAutoSwapWeapon 0
+GstInput.Vibration 4.000000
