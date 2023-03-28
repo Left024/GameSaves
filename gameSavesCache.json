@@ -1828,61 +1828,9 @@
         }
     },
     "2050650": {
-        "win64_save/data00-1.bin": {
-            "size": "108.9 KB",
-            "time": "3 月 26 日 上午 7:49"
-        },
-        "win64_save/data000.bin": {
-            "size": "1 MB",
-            "time": "3 月 26 日 上午 7:23"
-        },
-        "win64_save/data001Slot.bin": {
-            "size": "444.21 KB",
-            "time": "3 月 24 日 上午 2:48"
-        },
-        "win64_save/data002Slot.bin": {
-            "size": "634.53 KB",
-            "time": "3 月 24 日 上午 4:04"
-        },
-        "win64_save/data003Slot.bin": {
-            "size": "208.59 KB",
-            "time": "3 月 24 日 上午 2:03"
-        },
-        "win64_save/data004Slot.bin": {
-            "size": "688.9 KB",
-            "time": "3 月 24 日 上午 4:17"
-        },
-        "win64_save/data005Slot.bin": {
-            "size": "693.43 KB",
-            "time": "3 月 24 日 上午 4:20"
-        },
-        "win64_save/data006Slot.bin": {
-            "size": "770.46 KB",
-            "time": "3 月 26 日 上午 1:24"
-        },
-        "win64_save/data007Slot.bin": {
-            "size": "829.37 KB",
-            "time": "3 月 26 日 上午 1:35"
-        },
-        "win64_save/data008Slot.bin": {
-            "size": "838.43 KB",
-            "time": "3 月 26 日 上午 1:39"
-        },
-        "win64_save/data009Slot.bin": {
-            "size": "920 KB",
-            "time": "3 月 26 日 上午 6:56"
-        },
-        "win64_save/data010Slot.bin": {
-            "size": "951.71 KB",
-            "time": "3 月 26 日 上午 7:02"
-        },
-        "win64_save/data011Slot.bin": {
-            "size": "1019.68 KB",
-            "time": "3 月 26 日 上午 7:20"
-        },
-        "win64_save/data012Slot.bin": {
-            "size": "1.01 MB",
-            "time": "3 月 26 日 上午 7:49"
+        "win64_save/data013Slot.bin": {
+            "size": "1.02 MB",
+            "time": "3 月 28 日 上午 9:13"
         }
     }
 }
