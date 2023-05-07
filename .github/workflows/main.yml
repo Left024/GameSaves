@@ -3,9 +3,9 @@ name: Update
 on:
   schedule:
     - cron: '*/60 * * * *'
-  push:
-    branches:
-    - main
+  #push:
+    #branches:
+    #- main
 
 jobs:
   sync:
