@@ -1,0 +1,100 @@
+08-05 11:31:13.352|INFO |ProgramEntry:App arguments: ''
+08-05 11:31:13.861|WARN |PlayniteSettings:No existing settings found.
+08-05 11:31:13.861|WARN |PlayniteSettings:No settings backup found, creating default ones.
+08-05 11:31:13.975|WARN |PlayniteSettings:No existing windowPositions.json settings found.
+08-05 11:31:13.975|WARN |PlayniteSettings:No windowPositions.json settings backup found, creating default ones.
+08-05 11:31:13.975|WARN |PlayniteSettings:No existing fullscreenConfig.json settings found.
+08-05 11:31:13.975|WARN |PlayniteSettings:No fullscreenConfig.json settings backup found, creating default ones.
+08-05 11:31:16.018|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+08-05 11:31:16.920|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+08-05 11:31:16.979|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 53 ms to complete.
+08-05 11:31:17.146|INFO |DatabaseStats:Completely recalculating database statistics...
+08-05 11:31:17.292|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.FirstTimeStartupWindowFactory: 595a1418-ab7f-47c5-b528-937499d57f6e
+08-05 11:31:34.653|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 72ce5982-8ad4-443b-9021-dac1e2786c37
+08-05 11:31:38.828|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 72ce5982-8ad4-443b-9021-dac1e2786c37, True
+08-05 11:31:47.544|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 351d2304-6e32-474e-97c9-6c340dce1f53
+08-05 11:31:48.074|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+08-05 11:31:49.671|DEBUG|Downloader:Downloading data from https://github.com/JosefNemec/PlayniteExtensions/releases/download/2.2/IGDBMetadata_Builtin_2_6.pext to C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext.
+08-05 11:31:51.445|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 351d2304-6e32-474e-97c9-6c340dce1f53, True
+08-05 11:31:51.542|INFO |ExtensionInstaller:Installing extenstion/theme C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext
+08-05 11:31:51.735|INFO |ExtensionInstaller:Installed extension C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext
+08-05 11:31:51.757|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+08-05 11:31:53.326|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.FirstTimeStartupWindowFactory: 595a1418-ab7f-47c5-b528-937499d57f6e, True
+08-05 11:31:53.475|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: e5322661-75e5-4b05-b1b6-90a9d0edee69
+08-05 11:31:53.665|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+08-05 11:31:53.713|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 56d9e66c-7e4f-433d-8510-3832b3e2194b
+08-05 11:31:53.981|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 56d9e66c-7e4f-433d-8510-3832b3e2194b, True
+08-05 11:31:54.078|INFO |MainViewModelBase:Starting Library Install Size scan
+08-05 11:31:54.078|INFO |MainViewModelBase:Finished Library Install Size scan
+08-05 11:31:54.144|INFO |PlayniteApplication:Application 10.16.0.13735 started
+08-05 11:31:59.176|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+08-05 11:31:59.908|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.SearchWindowFactory: de61f980-e47e-4158-b273-a8c879955179
+08-05 11:32:01.323|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.SearchWindowFactory: de61f980-e47e-4158-b273-a8c879955179, 
+08-05 11:32:01.988|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+08-05 11:32:09.992|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 61375cdf-cc19-4201-be30-32c97e33e873
+08-05 11:32:14.871|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: e72fee6a-99dc-4c2c-b628-cefaaf98f98a
+08-05 11:32:27.175|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.InstalledGamesWindowFactory: 3ea0b5e7-6ef0-4186-97be-d85c361f200c
+08-05 11:32:36.582|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 006ee9fb-e1c3-47f3-9163-7da104cad92f
+08-05 11:32:36.616|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 006ee9fb-e1c3-47f3-9163-7da104cad92f, True
+08-05 11:32:44.079|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.InstalledGamesWindowFactory: 3ea0b5e7-6ef0-4186-97be-d85c361f200c, True
+08-05 11:32:44.079|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\35b927e5-eabb-4f13-bbe8-9db2518e6f0b.png to C:\Users\han\AppData\Roaming\Playnite\library\files\62b7deda-be81-492f-b41a-f83ef9dbcf0a\13dfacf0-08d2-4aab-92fe-32aec7ca056c.png
+08-05 11:32:44.108|DEBUG|MetadataDownloader:Downloading metadata for yuzu-windows-msvc-early-access, 0b9b2cb898ace529e26865aa4bcc3b86, 00000000-0000-0000-0000-000000000000
+08-05 11:32:45.911|INFO |MainViewModelBase:Starting Library Install Size scan
+08-05 11:32:45.926|INFO |MainViewModelBase:Finished Library Install Size scan
+08-05 11:32:55.100|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: ac3ecaeb-32b6-4013-9101-433854ce67ce
+08-05 11:33:17.424|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: 43bce178-46dd-4ba7-84b4-b7f2ccd05144
+08-05 11:33:39.559|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 3efe83fc-9289-44d8-aa06-05555c711a05
+08-05 11:33:47.478|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatorImportWindowFactory: a23efbda-11ae-42d1-bc4a-ff1ee89307f3
+08-05 11:33:49.948|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatorImportWindowFactory: a23efbda-11ae-42d1-bc4a-ff1ee89307f3, False
+08-05 11:33:55.218|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatorImportWindowFactory: 15bf3eb4-099d-44c3-94d3-ebbc2b0c2169
+08-05 11:34:01.612|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 0ba040ba-e6ea-456d-b8e9-adc9f5cf6216
+08-05 11:34:01.612|INFO |EmulatorScanner:Looking for emulators in D:\Games\Switch\yuzu-windows-msvc-early-access, using 68 definitions.
+08-05 11:34:01.695|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 0ba040ba-e6ea-456d-b8e9-adc9f5cf6216, True
+08-05 11:34:04.800|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatorImportWindowFactory: 15bf3eb4-099d-44c3-94d3-ebbc2b0c2169, True
+08-05 11:34:06.891|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 3efe83fc-9289-44d8-aa06-05555c711a05, True
+08-05 11:34:09.338|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: e96c1aef-458c-4264-a447-35a4edbbbd11
+08-05 11:34:56.133|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: bae04890-b58d-477d-9e67-b1b093972cce
+08-05 11:34:56.193|INFO |GameScanner:Scanning emulated directory D:\Games\Switch\Games.
+08-05 11:34:56.206|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: bae04890-b58d-477d-9e67-b1b093972cce, True
+08-05 11:35:01.050|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: e96c1aef-458c-4264-a447-35a4edbbbd11, True
+08-05 11:35:01.050|DEBUG|MetadataDownloader:Downloading metadata for TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D, d0127348-7ab5-447f-9c87-4593bf9fe183, 00000000-0000-0000-0000-000000000000
+08-05 11:35:03.021|DEBUG|MetadataDownloader:Downloading metadata for , acc30e68-6a29-47c2-a772-0727a003bd36, 00000000-0000-0000-0000-000000000000
+08-05 11:35:03.741|INFO |MainViewModelBase:Starting Library Install Size scan
+08-05 11:35:03.741|INFO |MainViewModelBase:Finished Library Install Size scan
+08-05 11:35:11.471|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: a22d209a-36f9-4a0e-b168-a77995f50745
+08-05 11:35:15.462|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: a22d209a-36f9-4a0e-b168-a77995f50745, False
+08-05 11:38:54.613|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 8a46e91a-20ce-42cd-bba2-00aba6a0c7c4
+08-05 11:39:06.315|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 8a46e91a-20ce-42cd-bba2-00aba6a0c7c4, False
+08-05 11:39:09.242|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: 1d5d96cf-367d-4fe7-92de-ec1db75aae8f
+08-05 11:39:18.061|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: 1d5d96cf-367d-4fe7-92de-ec1db75aae8f, False
+08-05 11:39:20.455|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 79e0b8b1-fa7b-41b9-a233-505c91a677db
+08-05 11:39:26.877|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatorsWindowFactory: 79e0b8b1-fa7b-41b9-a233-505c91a677db, False
+08-05 11:39:29.355|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 588289cb-9621-44e0-be84-a321c0666ba0
+08-05 11:39:33.781|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: 0df7421a-32e0-4baa-95b1-21ecdc51ea29
+08-05 11:39:49.740|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 39cdde21-330d-4285-a7bf-b247fa27b9b9
+08-05 11:39:49.776|INFO |GameScanner:Scanning emulated directory D:\Games\Switch\Games.
+08-05 11:39:49.776|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 39cdde21-330d-4285-a7bf-b247fa27b9b9, True
+08-05 11:40:15.552|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.EmulatedGameImportWindowFactory: 0df7421a-32e0-4baa-95b1-21ecdc51ea29, True
+08-05 11:40:15.552|DEBUG|MetadataDownloader:Downloading metadata for The Legend of Zelda: Tears of the Kingdom, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+08-05 11:40:20.906|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\fea88b64-32cc-4fa6-bcf7-2f2485d463b6.jpg to C:\Users\han\AppData\Roaming\Playnite\library\files\927e627f-2d39-4dee-b3b9-456dd7daf73e\c893294a-eba3-4946-9f2f-e9966214ca0b.jpg
+08-05 11:40:21.084|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\954ebd05-b216-4b19-92d0-dab81c818c9e.jpg to C:\Users\han\AppData\Roaming\Playnite\library\files\927e627f-2d39-4dee-b3b9-456dd7daf73e\12d4480d-9f16-4e00-9cc6-a4f4fb0923bb.jpg
+08-05 11:40:21.084|INFO |MainViewModelBase:Starting Library Install Size scan
+08-05 11:40:21.094|INFO |MainViewModelBase:Finished Library Install Size scan
+08-05 11:43:22.180|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 1c7e28a6-1058-4a19-a707-3bc0cbcbe2ef
+08-05 11:43:59.554|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 1c7e28a6-1058-4a19-a707-3bc0cbcbe2ef, True
+08-05 11:44:11.625|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 7cff68cf-4f05-4894-9c49-192c8c443d18
+08-05 11:44:24.645|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 7cff68cf-4f05-4894-9c49-192c8c443d18, True
+08-05 11:44:46.862|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+08-05 11:44:47.928|DEBUG|GamesEditor:Using generic controller to start emulated game.
+08-05 11:44:47.938|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+08-05 11:44:47.962|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+08-05 11:46:54.719|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 127 seconds.
+08-05 11:51:39.033|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+08-05 11:51:39.033|DEBUG|GamesEditor:Using generic controller to start emulated game.
+08-05 11:51:39.033|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+08-05 11:51:39.059|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+08-05 12:51:59.288|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 3620 seconds.
+08-05 12:52:10.973|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 637541c2-896e-42ac-9cb5-27da750fe2f7
+08-05 12:54:03.327|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: aaa5da7e-4037-471d-ac35-60358d8be4fd
+08-05 12:54:32.366|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: fd7ece88-733c-4ba0-ab7f-3406ebfb295e
+08-05 12:54:59.836|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: f330e6b8-4120-436c-af64-26b25fc3e479
