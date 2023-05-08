@@ -102,3 +102,4 @@
 08-05 14:04:38.083|DEBUG|GamesEditor:Using generic controller to start emulated game.
 08-05 14:04:38.083|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 08-05 14:04:38.099|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+08-05 15:45:18.392|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 6040 seconds.
