@@ -136,3 +136,4 @@ System.Exception: Emulator not found.
 09-05 16:06:11.237|DEBUG|GamesEditor:Using generic controller to start emulated game.
 09-05 16:06:11.539|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 09-05 16:06:11.565|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+09-05 16:59:08.371|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 3177 seconds.
