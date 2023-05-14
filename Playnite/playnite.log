@@ -381,3 +381,33 @@ System.Exception: Emulator not found.
 13-05 17:35:45.919|DEBUG|GamesEditor:Using generic controller to start emulated game.
 13-05 17:35:45.919|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 13-05 17:35:45.919|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+13-05 20:00:05.771|INFO |PlayniteApplication:Shutting down application because of session ending.
+13-05 20:00:05.908|DEBUG|PlayniteApplication:Releasing Playnite resources...
+13-05 20:00:05.933|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 5f98b1a4-c6eb-424a-97c7-bd9383955539
+13-05 20:00:05.957|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 5f98b1a4-c6eb-424a-97c7-bd9383955539, True
+14-05 15:53:25.821|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+14-05 15:53:27.636|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+14-05 15:53:28.931|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+14-05 15:53:29.018|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 6f94412a-e210-4751-8fbd-e6af543c3848
+14-05 15:53:29.277|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+14-05 15:53:29.328|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+14-05 15:53:29.328|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: af1aaeee-d432-4f82-9a48-e89e765224ca
+14-05 15:53:29.487|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 153 ms to complete.
+14-05 15:53:29.882|INFO |DatabaseStats:Completely recalculating database statistics...
+14-05 15:53:29.900|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: af1aaeee-d432-4f82-9a48-e89e765224ca, True
+14-05 15:53:30.069|INFO |PlayniteApplication:Application 10.16.0.13735 started
+14-05 15:53:30.125|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+14-05 15:53:34.796|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+14-05 15:53:35.073|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+14-05 15:53:41.318|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
