@@ -418,3 +418,7 @@ System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.W
 14-05 16:00:05.265|DEBUG|GamesEditor:Using generic controller to start emulated game.
 14-05 16:00:05.613|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 14-05 16:00:05.642|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+14-05 18:27:49.612|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+14-05 18:27:49.638|DEBUG|GamesEditor:Using generic controller to start emulated game.
+14-05 18:27:49.639|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+14-05 18:27:49.639|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
