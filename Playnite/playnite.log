@@ -493,3 +493,21 @@ System.Exception: Emulator not found.
 16-05 19:08:14.202|DEBUG|GamesEditor:Using generic controller to start emulated game.
 16-05 19:08:14.202|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 16-05 19:08:14.202|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+16-05 20:07:52.938|INFO |PlayniteApplication:Shutting down application because of session ending.
+16-05 20:07:53.060|DEBUG|PlayniteApplication:Releasing Playnite resources...
+16-05 20:07:53.087|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: b0cb9ac9-47cf-4473-8bf2-e54ae632bb2b
+16-05 20:07:53.109|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: b0cb9ac9-47cf-4473-8bf2-e54ae632bb2b, True
+17-05 15:41:33.629|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+17-05 15:41:35.431|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+17-05 15:41:36.798|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+17-05 15:41:36.893|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: ff2161cd-0d24-4411-bcf7-7365390a7842
+17-05 15:41:37.206|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+17-05 15:41:37.256|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+17-05 15:41:37.256|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 798e5c89-73df-4a90-bc8d-2facd73f9443
+17-05 15:41:37.418|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 155 ms to complete.
+17-05 15:41:37.651|INFO |DatabaseStats:Completely recalculating database statistics...
+17-05 15:41:37.668|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 798e5c89-73df-4a90-bc8d-2facd73f9443, True
+17-05 15:41:37.827|INFO |PlayniteApplication:Application 10.16.0.13735 started
+17-05 15:41:42.285|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+17-05 15:41:42.832|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+17-05 15:41:45.593|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
