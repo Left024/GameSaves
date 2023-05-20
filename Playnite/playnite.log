@@ -626,3 +626,44 @@ System.Exception: Emulator not found.
 19-05 18:55:15.992|DEBUG|GamesEditor:Using generic controller to start emulated game.
 19-05 18:55:15.992|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 19-05 18:55:16.008|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+19-05 20:15:22.897|INFO |PlayniteApplication:Shutting down application because of session ending.
+19-05 20:15:23.025|DEBUG|PlayniteApplication:Releasing Playnite resources...
+19-05 20:15:23.048|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: c3e39f63-d8a9-4ec6-b40b-ffaf06278eb8
+19-05 20:15:23.067|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: c3e39f63-d8a9-4ec6-b40b-ffaf06278eb8, True
+20-05 12:59:09.808|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+20-05 12:59:11.358|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+20-05 12:59:12.316|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+20-05 12:59:12.367|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 36bc7575-43c3-40d1-8571-946c163ccb7c
+20-05 12:59:12.562|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+20-05 12:59:12.647|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+20-05 12:59:12.661|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: c60a3353-def6-4b8f-9113-a98986282b73
+20-05 12:59:12.799|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 145 ms to complete.
+20-05 12:59:13.071|INFO |DatabaseStats:Completely recalculating database statistics...
+20-05 12:59:13.086|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: c60a3353-def6-4b8f-9113-a98986282b73, True
+20-05 12:59:13.287|INFO |PlayniteApplication:Application 10.16.0.13735 started
+20-05 12:59:13.417|INFO |MainViewModelBase:Importing emulated games from Config config.
+20-05 12:59:13.422|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+20-05 12:59:13.452|INFO |MainViewModelBase:Starting Library Install Size scan
+20-05 12:59:13.452|INFO |MainViewModelBase:Finished Library Install Size scan
+20-05 12:59:18.291|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+20-05 12:59:21.282|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+20-05 13:17:04.578|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+20-05 13:17:06.286|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+20-05 13:17:07.459|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+20-05 13:17:07.545|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 432ee86f-a5e9-4dac-9941-4e557fb662c3
+20-05 13:17:07.760|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+20-05 13:17:07.816|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+20-05 13:17:07.816|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 591e8895-ff2c-4171-ba2f-6c5dcd5d8c3c
+20-05 13:17:08.018|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 196 ms to complete.
+20-05 13:17:08.310|INFO |DatabaseStats:Completely recalculating database statistics...
+20-05 13:17:08.326|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 591e8895-ff2c-4171-ba2f-6c5dcd5d8c3c, True
+20-05 13:17:08.542|INFO |PlayniteApplication:Application 10.16.0.13735 started
+20-05 13:17:13.286|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+20-05 13:17:13.554|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+20-05 13:17:15.629|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
