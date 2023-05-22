@@ -881,3 +881,12 @@ System.Exception: Emulator not found.
 22-05 20:53:35.206|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 22-05 20:53:35.237|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
 22-05 20:57:18.005|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 223 seconds.
+22-05 21:02:30.730|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+22-05 21:02:30.739|DEBUG|GamesEditor:Using generic controller to start emulated game.
+22-05 21:02:30.739|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+22-05 21:02:30.754|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+22-05 21:06:14.928|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 224 seconds.
+22-05 21:15:33.787|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+22-05 21:15:33.787|DEBUG|GamesEditor:Using generic controller to start emulated game.
+22-05 21:15:33.797|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+22-05 21:15:33.797|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
