@@ -933,3 +933,7 @@ System.Exception: Emulator not found.
 23-05 20:40:42.985|INFO |MainViewModelBase:Finished Library Install Size scan
 23-05 20:40:47.852|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
 23-05 20:40:53.314|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+23-05 21:31:56.337|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+23-05 21:31:56.603|DEBUG|GamesEditor:Using generic controller to start emulated game.
+23-05 21:31:57.190|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+23-05 21:31:57.262|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
