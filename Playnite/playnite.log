@@ -894,3 +894,42 @@ System.Exception: Emulator not found.
 22-05 21:54:14.977|DEBUG|GamesEditor:Using generic controller to start emulated game.
 22-05 21:54:14.977|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 22-05 21:54:14.992|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+23-05 00:06:26.182|INFO |PlayniteApplication:Shutting down application because of session ending.
+23-05 00:06:26.251|DEBUG|PlayniteApplication:Releasing Playnite resources...
+23-05 00:06:26.271|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 59c4aea0-531c-4d55-b538-06b23e89bbbf
+23-05 00:06:26.281|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 59c4aea0-531c-4d55-b538-06b23e89bbbf, True
+23-05 20:40:39.691|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+23-05 20:40:40.926|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+23-05 20:40:41.981|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+23-05 20:40:42.061|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 82a4e612-3c25-42da-bb62-68feabce6c7c
+23-05 20:40:42.284|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+23-05 20:40:42.341|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+23-05 20:40:42.356|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: e622e08b-1e83-4338-9447-cd87db1d2c12
+23-05 20:40:42.493|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 149 ms to complete.
+23-05 20:40:42.700|INFO |DatabaseStats:Completely recalculating database statistics...
+23-05 20:40:42.709|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: e622e08b-1e83-4338-9447-cd87db1d2c12, True
+23-05 20:40:42.847|INFO |PlayniteApplication:Application 10.16.0.13735 started
+23-05 20:40:42.895|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+23-05 20:40:42.969|INFO |MainViewModelBase:Importing emulated games from Config config.
+23-05 20:40:42.969|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+23-05 20:40:42.985|INFO |MainViewModelBase:Starting Library Install Size scan
+23-05 20:40:42.985|INFO |MainViewModelBase:Finished Library Install Size scan
+23-05 20:40:47.852|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+23-05 20:40:53.314|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
