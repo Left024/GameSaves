@@ -1204,3 +1204,46 @@ System.Exception: Emulator not found.
 29-05 23:16:37.258|DEBUG|GamesEditor:Using generic controller to start emulated game.
 29-05 23:16:37.258|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 29-05 23:16:37.274|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+29-05 23:53:45.672|INFO |PlayniteApplication:Shutting down application because of session ending.
+29-05 23:53:45.786|DEBUG|PlayniteApplication:Releasing Playnite resources...
+29-05 23:53:45.814|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 70b9acf4-2390-49f8-b883-89f103fe3c61
+29-05 23:53:45.838|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 70b9acf4-2390-49f8-b883-89f103fe3c61, True
+31-05 21:17:43.658|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+31-05 21:17:45.271|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+31-05 21:17:46.286|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+31-05 21:17:46.383|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: cfd5d268-68ae-433f-9c90-5470cc71ad2b
+31-05 21:17:46.582|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+31-05 21:17:46.607|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+31-05 21:17:46.607|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: fc173e3e-63cc-42a6-abe7-6ae54a9148a3
+31-05 21:17:46.762|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 151 ms to complete.
+31-05 21:17:47.185|INFO |DatabaseStats:Completely recalculating database statistics...
+31-05 21:17:47.185|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: fc173e3e-63cc-42a6-abe7-6ae54a9148a3, True
+31-05 21:17:47.488|INFO |PlayniteApplication:Application 10.16.0.13735 started
+31-05 21:17:47.541|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 System.Net.FixedSizeReader.StartReading()
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.BeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback asyncCallback, Object asyncState)
+   在 System.Net.TlsStream.UnsafeBeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback asyncCallback, Object asyncState)
+   在 System.Net.PooledStream.UnsafeBeginWrite(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+31-05 21:17:52.285|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+31-05 21:17:52.511|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+31-05 21:17:58.345|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
