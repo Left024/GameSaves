@@ -1247,3 +1247,10 @@ System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.W
 31-05 21:17:52.285|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
 31-05 21:17:52.511|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
 31-05 21:17:58.345|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+31-05 22:02:30.137|INFO |ProgramEntry:App arguments: ''
+31-05 22:02:30.459|INFO |PlayniteApplication:Application already running, shutting down.
+31-05 22:02:30.732|INFO |PlayniteApplication:Executing command "Focus" from pipe with arguments ""
+31-05 22:02:31.965|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+31-05 22:02:32.468|DEBUG|GamesEditor:Using generic controller to start emulated game.
+31-05 22:02:33.050|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+31-05 22:02:33.115|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
