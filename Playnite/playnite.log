@@ -1416,3 +1416,10 @@ System.Exception: Emulator not found.
 03-06 23:28:12.475|DEBUG|GamesEditor:Using generic controller to start emulated game.
 03-06 23:28:12.475|DEBUG|ProcessStarter:Starting process: yuzu.exe, "D:\Games\Switch\Games\TOTK+%5B0100F2C0115B6000%5D%5Bv0%5D.xci", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 03-06 23:28:12.489|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+03-06 23:31:04.627|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 172 seconds.
+03-06 23:35:52.354|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: b4f1f566-e684-4510-92d7-03df32aafd6f
+03-06 23:36:14.036|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: b4f1f566-e684-4510-92d7-03df32aafd6f, True
+03-06 23:36:15.144|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+03-06 23:36:15.160|DEBUG|GamesEditor:Using generic controller to start emulated game.
+03-06 23:36:15.160|DEBUG|ProcessStarter:Starting process: yuzu.exe, "{ImagePath}", D:\Games\Switch\yuzu-windows-msvc-early-access, False
+03-06 23:36:15.176|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
