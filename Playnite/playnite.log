@@ -1490,3 +1490,50 @@ System.Exception: Emulator not found.
 05-06 11:43:01.924|DEBUG|GamesEditor:Using generic controller to start emulated game.
 05-06 11:43:01.924|DEBUG|ProcessStarter:Starting process: yuzu.exe, "{ImagePath}", D:\Games\Switch\yuzu-windows-msvc-early-access, False
 05-06 11:43:01.938|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+05-06 12:01:17.606|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 2afb608d-b38c-48dd-8443-4bfa1bf9649f
+05-06 12:01:25.029|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 2afb608d-b38c-48dd-8443-4bfa1bf9649f, True
+05-06 12:01:25.852|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 46894813-017d-4b99-b96f-499e840a0ef4
+05-06 12:02:12.606|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 46894813-017d-4b99-b96f-499e840a0ef4, True
+05-06 12:02:13.480|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: c22a73f2-7fe1-420f-b541-1e49897f585a
+05-06 12:02:22.841|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: c22a73f2-7fe1-420f-b541-1e49897f585a, True
+05-06 12:02:23.617|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: f19509da-d262-4778-b70e-b23c2370fce7
+05-06 12:02:34.705|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: f19509da-d262-4778-b70e-b23c2370fce7, True
+05-06 12:05:56.465|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: c1a067b7-8d2c-4473-af52-f46bb5c7b888
+05-06 12:05:59.719|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: c1a067b7-8d2c-4473-af52-f46bb5c7b888, True
+05-06 12:06:03.187|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: b8181445-8449-49c6-909d-baecdd50147f
+05-06 12:06:09.662|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+05-06 12:06:09.662|DEBUG|GamesEditor:Using generic controller start a game.
+05-06 12:06:09.673|DEBUG|ProcessStarter:Starting process: D:\Games\Switch\yuzu-windows-msvc-early-access\yuzu.exe, , , False
+05-06 12:06:09.673|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+05-06 12:06:14.819|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 5 seconds.
+05-06 12:11:53.802|INFO |PlayniteApplication:Shutting down application because of session ending.
+05-06 12:11:53.899|DEBUG|PlayniteApplication:Releasing Playnite resources...
+05-06 12:11:53.934|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 2592f115-af6c-4833-abfd-a9942e9cd96b
+05-06 12:11:53.969|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 2592f115-af6c-4833-abfd-a9942e9cd96b, True
+05-06 12:12:56.543|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+05-06 12:12:57.895|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+05-06 12:12:58.995|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+05-06 12:12:59.101|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: fe02568b-5cd1-497e-aa0b-d4f5675c4b27
+05-06 12:12:59.322|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+05-06 12:12:59.375|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+05-06 12:12:59.376|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: cb3043b7-da12-46ba-92fa-365d732ed1bd
+05-06 12:12:59.569|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 189 ms to complete.
+05-06 12:12:59.891|INFO |DatabaseStats:Completely recalculating database statistics...
+05-06 12:12:59.913|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: cb3043b7-da12-46ba-92fa-365d732ed1bd, True
+05-06 12:13:00.204|INFO |PlayniteApplication:Application 10.16.0.13735 started
+05-06 12:13:00.322|INFO |MainViewModelBase:Importing emulated games from Config config.
+05-06 12:13:00.331|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+05-06 12:13:00.367|INFO |MainViewModelBase:Starting Library Install Size scan
+05-06 12:13:00.367|INFO |MainViewModelBase:Finished Library Install Size scan
+05-06 12:13:05.209|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+05-06 12:13:13.038|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+05-06 12:13:40.350|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+05-06 12:13:40.579|DEBUG|GamesEditor:Using generic controller start a game.
+05-06 12:13:40.635|DEBUG|ProcessStarter:Starting process: D:\Games\Switch\yuzu-windows-msvc-early-access\yuzu.exe, , , False
+05-06 12:13:40.669|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
