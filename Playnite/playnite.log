@@ -1645,3 +1645,25 @@ System.Exception: Emulator not found.
 07-06 16:06:13.430|INFO |MainViewModelBase:Finished Library Install Size scan
 07-06 16:06:18.299|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
 07-06 16:06:21.723|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+07-06 16:44:51.072|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 4c9a724e-90b3-4aa8-8e9b-09cff08e192c
+07-06 16:46:06.139|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 4c9a724e-90b3-4aa8-8e9b-09cff08e192c, True
+07-06 16:46:07.364|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+07-06 16:46:07.800|DEBUG|GamesEditor:Using generic controller start a game.
+07-06 16:46:07.800|DEBUG|ProcessStarter:Starting process: D:\软件\geek\geek.exe, , , False
+07-06 16:46:09.360|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+07-06 16:47:53.912|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 3a8645e0-eb58-4e1a-933a-567d057ca709
+07-06 16:48:35.973|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: 3a8645e0-eb58-4e1a-933a-567d057ca709, True
+07-06 16:48:36.829|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+07-06 16:48:36.847|DEBUG|GamesEditor:Using generic controller start a game.
+07-06 16:48:36.847|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
+07-06 16:48:36.931|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+07-06 16:48:39.005|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 2 seconds.
+07-06 16:48:40.020|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+07-06 16:48:40.043|DEBUG|GamesEditor:Using generic controller start a game.
+07-06 16:48:40.043|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
+07-06 16:48:40.098|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+07-06 16:48:42.171|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 2 seconds.
+07-06 16:50:13.759|INFO |GamesEditor:Starting The Legend of Zelda: Tears of the Kingdom, 927e627f-2d39-4dee-b3b9-456dd7daf73e, 1a258126-755f-4886-b849-011728240643, 00000000-0000-0000-0000-000000000000
+07-06 16:50:13.784|DEBUG|GamesEditor:Using generic controller start a game.
+07-06 16:50:13.784|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
+07-06 16:50:13.840|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
