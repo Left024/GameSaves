@@ -1801,3 +1801,4 @@ System.Exception: Emulator not found.
 11-06 18:22:58.880|DEBUG|GamesEditor:Using generic controller start a game.
 11-06 18:22:58.921|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
 11-06 18:22:59.021|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+11-06 20:03:10.892|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 6012 seconds.
