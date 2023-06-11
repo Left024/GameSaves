@@ -1758,3 +1758,42 @@ System.Exception: Emulator not found.
 10-06 16:19:15.476|INFO |MainViewModelBase:Finished Library Install Size scan
 10-06 16:19:20.320|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
 10-06 16:19:24.573|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+10-06 20:06:17.209|INFO |PlayniteApplication:Shutting down application because of session ending.
+10-06 20:06:17.313|DEBUG|PlayniteApplication:Releasing Playnite resources...
+10-06 20:06:17.335|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 7c648163-753d-4663-a50b-9b1c8e731e9d
+10-06 20:06:17.390|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 7c648163-753d-4663-a50b-9b1c8e731e9d, True
+11-06 15:57:46.731|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+11-06 15:57:48.098|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+11-06 15:57:49.227|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+11-06 15:57:49.316|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 3c5f851c-e941-41a4-8104-7455a417779a
+11-06 15:57:49.533|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+11-06 15:57:49.598|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+11-06 15:57:49.598|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: f05aaaf8-5cad-47fd-b35b-a5bfbf0662ab
+11-06 15:57:49.780|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 176 ms to complete.
+11-06 15:57:50.075|INFO |DatabaseStats:Completely recalculating database statistics...
+11-06 15:57:50.090|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: f05aaaf8-5cad-47fd-b35b-a5bfbf0662ab, True
+11-06 15:57:50.297|INFO |PlayniteApplication:Application 10.16.0.13735 started
+11-06 15:57:50.346|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+11-06 15:57:50.573|INFO |MainViewModelBase:Importing emulated games from Config config.
+11-06 15:57:50.578|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+11-06 15:57:50.644|INFO |MainViewModelBase:Starting Library Install Size scan
+11-06 15:57:50.644|INFO |MainViewModelBase:Finished Library Install Size scan
+11-06 15:57:55.301|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+11-06 15:58:01.279|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
