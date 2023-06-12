@@ -1802,3 +1802,42 @@ System.Exception: Emulator not found.
 11-06 18:22:58.921|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
 11-06 18:22:59.021|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
 11-06 20:03:10.892|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 6012 seconds.
+11-06 20:06:16.414|INFO |PlayniteApplication:Shutting down application because of session ending.
+11-06 20:06:16.482|DEBUG|PlayniteApplication:Releasing Playnite resources...
+11-06 20:06:16.504|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 8500be97-14c8-4a29-9676-85d839608781
+11-06 20:06:16.520|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 8500be97-14c8-4a29-9676-85d839608781, True
+12-06 16:10:52.215|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+12-06 16:10:54.037|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+12-06 16:10:55.002|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+12-06 16:10:55.080|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 2e204ec2-6a1d-442b-a7f4-ecbbf2aad9ae
+12-06 16:10:55.336|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+12-06 16:10:55.400|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+12-06 16:10:55.400|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 30279946-f3c8-4bdf-880f-e520d5b898a6
+12-06 16:10:55.602|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 197 ms to complete.
+12-06 16:10:55.942|INFO |DatabaseStats:Completely recalculating database statistics...
+12-06 16:10:55.958|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 30279946-f3c8-4bdf-880f-e520d5b898a6, True
+12-06 16:10:56.201|INFO |PlayniteApplication:Application 10.16.0.13735 started
+12-06 16:10:56.288|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+12-06 16:10:56.356|INFO |MainViewModelBase:Importing emulated games from Config config.
+12-06 16:10:56.362|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+12-06 16:10:56.381|INFO |MainViewModelBase:Starting Library Install Size scan
+12-06 16:10:56.381|INFO |MainViewModelBase:Finished Library Install Size scan
+12-06 16:11:01.205|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+12-06 16:11:07.163|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
