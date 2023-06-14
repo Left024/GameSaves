@@ -1877,3 +1877,45 @@ System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.W
    --- 内部异常堆栈跟踪的结尾 ---
 13-06 16:14:26.674|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
 13-06 16:14:29.682|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+13-06 20:05:05.028|INFO |PlayniteApplication:Shutting down application because of session ending.
+13-06 20:05:05.104|DEBUG|PlayniteApplication:Releasing Playnite resources...
+13-06 20:05:05.125|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 3a0a5975-453e-45c6-95d9-01d6f63970a8
+13-06 20:05:05.134|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 3a0a5975-453e-45c6-95d9-01d6f63970a8, True
+14-06 15:21:55.295|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+14-06 15:21:57.362|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+14-06 15:21:58.440|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+14-06 15:21:58.559|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 24d3e645-a14d-4f56-b0b4-8e68a20f4c79
+14-06 15:21:58.811|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+14-06 15:21:58.876|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+14-06 15:21:58.876|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: d835399f-2449-490d-ae82-a8f2fe3878bc
+14-06 15:21:59.089|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 207 ms to complete.
+14-06 15:21:59.424|INFO |DatabaseStats:Completely recalculating database statistics...
+14-06 15:21:59.447|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: d835399f-2449-490d-ae82-a8f2fe3878bc, True
+14-06 15:21:59.690|INFO |PlayniteApplication:Application 10.16.0.13735 started
+14-06 15:21:59.944|INFO |MainViewModelBase:Importing emulated games from Config config.
+14-06 15:21:59.944|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+14-06 15:22:00.016|INFO |MainViewModelBase:Starting Library Install Size scan
+14-06 15:22:00.016|INFO |MainViewModelBase:Finished Library Install Size scan
+14-06 15:22:04.695|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+14-06 15:22:08.311|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+14-06 15:22:13.053|ERROR|AddonManifest:Failed to get addon installer manifest data.
+System.Net.WebException: 基础连接已经关闭: 连接被意外关闭。
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Common.Web.Downloader.<>c__DisplayClass5_0.<<DownloadString>b__1>d.MoveNext() 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 82
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Common.Web.Downloader.DownloadString(String url, CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 82
+   在 Playnite.Common.Web.HttpDownloader.DownloadString(String url, CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Common\Web\HttpDownloader.cs:行号 32
+   在 Playnite.AddonManifest.DownloadInstallerManifest(CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Manifests\AddonManifests.cs:行号 221
