@@ -18,8 +18,10 @@
   <sys:String x:Key="LOCIGDBStartUsingClient">بدء باستخدام {0} عميل</sys:String>
   <sys:String x:Key="LOCIGDBImportPlaytime">استيراد وقت التشغيل</sys:String>
   <sys:String x:Key="LOCIGDBAccountID">تعريف الحساب</sys:String>
+  <sys:String x:Key="LOCIGDBMetadataLanguageLabel">لغة بيانات التعريف:</sys:String>
   <!--IGDB-->
   <sys:String x:Key="LOCIgdbUseScreenshotIfNecessary">استخدم لقطات الشاشة في حالة عدم توفر العمل الفني</sys:String>
   <sys:String x:Key="LOCIgdbMultipleArtworkOptionsTitle">اذا اكثر من صورة متاحات اذن استخدم:</sys:String>
   <sys:String x:Key="LOCIgdbSelectBackgroundTitle">حدد صورة خلفية لـ{0}</sys:String>
+  <sys:String x:Key="LOCIgdbCoverAsIcon" />
 </ResourceDictionary>

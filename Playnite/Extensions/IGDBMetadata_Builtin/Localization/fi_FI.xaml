@@ -18,8 +18,10 @@
   <sys:String x:Key="LOCIGDBStartUsingClient" />
   <sys:String x:Key="LOCIGDBImportPlaytime" />
   <sys:String x:Key="LOCIGDBAccountID" />
+  <sys:String x:Key="LOCIGDBMetadataLanguageLabel" />
   <!--IGDB-->
   <sys:String x:Key="LOCIgdbUseScreenshotIfNecessary" />
   <sys:String x:Key="LOCIgdbMultipleArtworkOptionsTitle" />
   <sys:String x:Key="LOCIgdbSelectBackgroundTitle" />
+  <sys:String x:Key="LOCIgdbCoverAsIcon" />
 </ResourceDictionary>

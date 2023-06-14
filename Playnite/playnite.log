@@ -1919,3 +1919,124 @@ System.Net.WebException: 基础连接已经关闭: 连接被意外关闭。
    在 Playnite.Common.Web.Downloader.DownloadString(String url, CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 82
    在 Playnite.Common.Web.HttpDownloader.DownloadString(String url, CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Common\Web\HttpDownloader.cs:行号 32
    在 Playnite.AddonManifest.DownloadInstallerManifest(CancellationToken cancelToken) 位置 C:\projects\playnite\source\Playnite\Manifests\AddonManifests.cs:行号 221
+14-06 18:42:33.560|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 50e11642-f0b9-4283-869f-8cadf7189a47
+14-06 18:42:37.888|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.InstalledGamesWindowFactory: 2950238b-93a6-4411-93a9-256b8c0af5c2
+14-06 18:43:03.130|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.InstalledGamesWindowFactory: 2950238b-93a6-4411-93a9-256b8c0af5c2, True
+14-06 18:43:03.142|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\f787ccc4-7568-4eed-a703-942fe7e049b6.png to C:\Users\han\AppData\Roaming\Playnite\library\files\143fd0fb-72a5-4ff0-9868-965b2f0ce630\572c1245-ca38-4d66-9ae2-d1ffb31d3960.png
+14-06 18:43:03.161|DEBUG|MetadataDownloader:Downloading metadata for Battlefield 1, 00ade43734afeb8989c3a7d514cf243a, 00000000-0000-0000-0000-000000000000
+14-06 18:43:06.800|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\0493cb6c-e65b-4a45-b67c-c6884f0cc36f.jpg to C:\Users\han\AppData\Roaming\Playnite\library\files\143fd0fb-72a5-4ff0-9868-965b2f0ce630\162f7f12-4d07-4a55-a853-00d46891a47b.jpg
+14-06 18:43:07.028|DEBUG|FileSystem:Copying file C:\Users\han\AppData\Local\Temp\Playnite\913cf87f-d67d-45e7-8194-33599e53fba5.jpg to C:\Users\han\AppData\Roaming\Playnite\library\files\143fd0fb-72a5-4ff0-9868-965b2f0ce630\ef6d4952-d4b2-47bd-a764-f1f16a58d67a.jpg
+14-06 18:43:07.076|INFO |MainViewModelBase:Starting Library Install Size scan
+14-06 18:43:07.183|INFO |MainViewModelBase:Finished Library Install Size scan
+14-06 18:43:12.618|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 6fc453ca-a279-43e1-92f1-592e94ecc63f
+14-06 18:43:23.640|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+14-06 18:43:25.457|DEBUG|Downloader:Downloading string content from multiple mirrors.
+14-06 18:43:25.457|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17.html using System.Text.UTF8Encoding encoding.
+14-06 18:43:25.815|DEBUG|WindowFactory:Show dialog window Playnite.Windows.UpdateWindowFactory: 1098822a-e23b-414c-bd17-a99ee8f98652
+14-06 18:43:28.212|DEBUG|WindowFactory:Closing window Playnite.Windows.UpdateWindowFactory: 1098822a-e23b-414c-bd17-a99ee8f98652, 
+14-06 18:43:32.748|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.16/update.json using System.Text.UTF8Encoding encoding.
+14-06 18:43:34.149|DEBUG|Downloader:Downloading string content from multiple mirrors.
+14-06 18:43:34.149|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17.html using System.Text.UTF8Encoding encoding.
+14-06 18:43:34.517|DEBUG|WindowFactory:Show dialog window Playnite.Windows.UpdateWindowFactory: dfd37bb2-6075-4526-92a4-5f5336ebb468
+14-06 18:43:35.655|DEBUG|Downloader:Downloading data async from multiple mirrors.
+14-06 18:43:35.655|DEBUG|Downloader:Downloading data async from https://www.playnite.link/update/stable/10.17/1016to1017.exe to C:\Users\han\AppData\Local\Temp\Playnite\update.exe.
+14-06 18:43:48.460|INFO |Updater:Installing new update to C:\Users\han\AppData\Local\Playnite, in  mode
+14-06 18:43:48.460|INFO |PlayniteApplication:Shutting down Playnite and starting an app.
+14-06 18:43:48.537|DEBUG|PlayniteApplication:Releasing Playnite resources...
+14-06 18:43:48.555|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 5b5de56f-b906-4932-9ddb-e68ef9e96866
+14-06 18:43:48.567|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 5b5de56f-b906-4932-9ddb-e68ef9e96866, True
+14-06 18:43:48.653|DEBUG|ProcessStarter:Starting process: C:\Users\han\AppData\Local\Temp\Playnite\update.exe, /SILENT /NOCANCEL /DIR="C:\Users\han\AppData\Local\Playnite" /UPDATE  , , False
+14-06 18:43:50.850|INFO |ProgramEntry:App arguments: ''
+14-06 18:43:52.398|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+14-06 18:43:53.026|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+14-06 18:43:53.073|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 51ac9650-6a6c-4df9-a3f1-1df50ea8cfdb
+14-06 18:43:53.219|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+14-06 18:43:53.250|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+14-06 18:43:53.250|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 62fa2924-f377-4b6b-96d9-b9ee7b494f7a
+14-06 18:43:53.342|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 89 ms to complete.
+14-06 18:43:53.537|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 62fa2924-f377-4b6b-96d9-b9ee7b494f7a, False
+14-06 18:43:53.558|ERROR|MainViewModelBase:Failed to open library database.
+System.IO.IOException: 文件“C:\Users\han\AppData\Roaming\Playnite\library\games.db”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 LiteDB.FileDiskService.Initialize(Logger log, String password)
+   在 LiteDB.LiteEngine..ctor(IDiskService disk, String password, Nullable`1 timeout, Int32 cacheSize, Logger log, Boolean utcDate)
+   在 LiteDB.LiteDatabase.<>c__DisplayClass11_0.<.ctor>b__0()
+   在 LiteDB.LazyLoad`1.get_Value()
+   在 LiteDB.LiteCollection`1.EnsureIndex(String field, String expression, Boolean unique)
+   在 LiteDB.LiteCollection`1.EnsureIndex[K](Expression`1 property, Boolean unique)
+   在 Playnite.Database.ItemCollection`1.<>c__DisplayClass44_0.<InitializeCollection>g__openDb|0() 位置 C:\projects\playnite\source\Playnite\Database\Collections\ItemCollection.cs:行号 123
+   在 Playnite.Database.ItemCollection`1.InitializeCollection(String path) 位置 C:\projects\playnite\source\Playnite\Database\Collections\ItemCollection.cs:行号 150
+   在 Playnite.Database.GameDatabase.LoadCollections() 位置 C:\projects\playnite\source\Playnite\Database\GameDatabase.cs:行号 274
+   在 Playnite.Database.GameDatabase.OpenDatabase() 位置 C:\projects\playnite\source\Playnite\Database\GameDatabase.cs:行号 542
+   在 Playnite.DesktopApp.ViewModels.DesktopAppViewModel.<InitializeView>b__390_2(GlobalProgressActionArgs _) 位置 C:\projects\playnite\source\Playnite.DesktopApp\ViewModels\DesktopAppViewModel.cs:行号 417
+   在 Playnite.ViewModels.ProgressViewViewModel.<>c__DisplayClass22_0.<ActivateProgress>b__0() 位置 C:\projects\playnite\source\Playnite\ViewModels\ProgressViewViewModel.cs:行号 91
+14-06 18:43:56.432|INFO |PlayniteApplication:Application 10.17.0.18278 started
+14-06 18:44:01.292|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+14-06 18:44:01.449|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+14-06 18:44:03.288|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+14-06 18:44:22.910|INFO |PlayniteApplication:Shutting down Playnite
+14-06 18:44:22.910|DEBUG|PlayniteApplication:Releasing Playnite resources...
+14-06 18:44:22.931|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 8242f5d4-7b25-4138-9d47-bfd51c9e047d
+14-06 18:44:22.940|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 8242f5d4-7b25-4138-9d47-bfd51c9e047d, True
+14-06 18:46:15.838|INFO |ProgramEntry:App arguments: ''
+14-06 18:46:16.562|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+14-06 18:46:16.821|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.6
+14-06 18:46:16.850|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 52151fd9-9e69-4a73-b731-aa74d6e938c4
+14-06 18:46:17.034|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+14-06 18:46:17.085|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+14-06 18:46:17.103|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 68cccaa7-5678-4066-8d70-a90e97bd40d5
+14-06 18:46:17.179|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 92 ms to complete.
+14-06 18:46:17.270|INFO |DatabaseStats:Completely recalculating database statistics...
+14-06 18:46:17.281|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 68cccaa7-5678-4066-8d70-a90e97bd40d5, True
+14-06 18:46:17.385|INFO |PlayniteApplication:Application 10.17.0.18278 started
+14-06 18:46:17.570|INFO |MainViewModelBase:Importing emulated games from Config config.
+14-06 18:46:17.570|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+14-06 18:46:17.590|INFO |MainViewModelBase:Starting Library Install Size scan
+14-06 18:46:17.594|INFO |MainViewModelBase:Finished Library Install Size scan
+14-06 18:46:22.392|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+14-06 18:46:24.226|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+14-06 18:46:32.495|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: e5c3a674-5414-4166-b8c9-46caa3ebab95
+14-06 18:46:34.176|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: e5c3a674-5414-4166-b8c9-46caa3ebab95, False
+14-06 18:46:47.005|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.AddonsWindowFactory: c5ce5585-3d47-4439-9c6b-ca276c16e86b
+14-06 18:46:56.586|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 5bf0c6af-43fc-41a9-9b11-1c73ba0996f4
+14-06 18:46:57.118|DEBUG|Downloader:Downloading data from https://github.com/JosefNemec/PlayniteExtensions/releases/download/2.2/IGDBMetadata_Builtin_2_7.pext to C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext.
+14-06 18:46:58.118|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 5bf0c6af-43fc-41a9-9b11-1c73ba0996f4, True
+14-06 18:47:02.902|INFO |PlayniteApplication:Shutting down Playnite and starting an app.
+14-06 18:47:02.906|DEBUG|PlayniteApplication:Releasing Playnite resources...
+14-06 18:47:02.921|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 40f23397-ae39-4fba-a63e-063f2b827aa9
+14-06 18:47:02.921|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 40f23397-ae39-4fba-a63e-063f2b827aa9, True
+14-06 18:47:03.014|DEBUG|ProcessStarter:Starting process: C:\Users\han\AppData\Local\Playnite\Playnite.DesktopApp.exe, --masterinstance --nolibupdate, , False
+14-06 18:47:03.035|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.AddonsWindowFactory: c5ce5585-3d47-4439-9c6b-ca276c16e86b, True
+14-06 18:47:03.203|INFO |ProgramEntry:App arguments: '--masterinstance,--nolibupdate'
+14-06 18:47:03.652|INFO |ExtensionInstaller:Installing extenstion/theme C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext
+14-06 18:47:03.800|DEBUG|ExtensionInstaller:Replacing existing extenstion/theme installation: C:\Users\han\AppData\Roaming\Playnite\Extensions\IGDBMetadata_Builtin.
+14-06 18:47:03.845|INFO |ExtensionInstaller:Installed extension C:\Users\han\AppData\Local\Temp\Playnite\IGDBMetadata_Builtin.pext
+14-06 18:47:04.122|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+14-06 18:47:04.385|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+14-06 18:47:04.417|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 7a0f539a-fff9-4360-9440-833999b2c840
+14-06 18:47:04.608|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+14-06 18:47:04.641|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+14-06 18:47:04.641|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 4894a9db-39ee-414a-9a14-683cf6f87a6e
+14-06 18:47:04.725|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 81 ms to complete.
+14-06 18:47:04.851|INFO |DatabaseStats:Completely recalculating database statistics...
+14-06 18:47:04.863|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 4894a9db-39ee-414a-9a14-683cf6f87a6e, True
+14-06 18:47:04.926|WARN |MainViewModelBase:Startup library update disabled via cmdline.
+14-06 18:47:04.948|INFO |PlayniteApplication:Application 10.17.0.18278 started
+14-06 18:47:09.957|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+14-06 18:47:11.604|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+14-06 18:47:17.818|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: dada2874-3a5f-4c5b-852a-ddeb2281e65e
+14-06 18:47:54.887|DEBUG|WindowFactory:Closing window Playnite.DesktopApp.Windows.GameEditWindowFactory: dada2874-3a5f-4c5b-852a-ddeb2281e65e, True
+14-06 18:47:56.386|INFO |GamesEditor:Starting Battlefield 1, 143fd0fb-72a5-4ff0-9868-965b2f0ce630, 00ade43734afeb8989c3a7d514cf243a, 00000000-0000-0000-0000-000000000000
+14-06 18:47:56.805|DEBUG|GamesEditor:Using generic controller start a game.
+14-06 18:47:56.812|DEBUG|ProcessStarter:Starting process: D:\Games\Origin Games\Battlefield 1\bf1.exe, , D:\Games\Origin Games\Battlefield 1, False
+14-06 18:47:56.845|INFO |GamesEditor:Started Battlefield 1 game.
+14-06 18:47:57.886|INFO |GamesEditor:Game Battlefield 1 stopped after 1 seconds.
+14-06 18:54:00.328|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 36a03aee-746c-4b63-b1a3-c03a338a096b

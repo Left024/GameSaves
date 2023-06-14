@@ -18,9 +18,11 @@
   <sys:String x:Key="LOCIGDBStartUsingClient">{0} クライアントの使用を開始</sys:String>
   <sys:String x:Key="LOCIGDBImportPlaytime">プレイ時間をインポート</sys:String>
   <sys:String x:Key="LOCIGDBAccountID">アカウントID</sys:String>
+  <sys:String x:Key="LOCIGDBMetadataLanguageLabel">メタデータの言語</sys:String>
   <!--IGDB-->
   <sys:String x:Key="LOCIgdbUseScreenshotIfNecessary">アートワークが利用できない場合スクリーンショットを使用する</sys:String>
   <sys:String x:Key="LOCIgdbMultipleArtworkOptionsTitle">
 複数の画像が利用可能な場合は、次を使用します：</sys:String>
   <sys:String x:Key="LOCIgdbSelectBackgroundTitle">背景画像 {0} を選択</sys:String>
+  <sys:String x:Key="LOCIgdbCoverAsIcon" />
 </ResourceDictionary>
