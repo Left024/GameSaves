@@ -2040,3 +2040,48 @@ System.Exception: Emulator not found.
 14-06 18:47:56.845|INFO |GamesEditor:Started Battlefield 1 game.
 14-06 18:47:57.886|INFO |GamesEditor:Game Battlefield 1 stopped after 1 seconds.
 14-06 18:54:00.328|DEBUG|WindowFactory:Show dialog window Playnite.DesktopApp.Windows.GameEditWindowFactory: 36a03aee-746c-4b63-b1a3-c03a338a096b
+14-06 20:03:42.192|INFO |PlayniteApplication:Shutting down application because of session ending.
+14-06 20:03:42.240|DEBUG|PlayniteApplication:Releasing Playnite resources...
+14-06 20:03:42.270|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 9cecaa08-68f6-436c-a140-a66da4a2a825
+14-06 20:03:42.404|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 9cecaa08-68f6-436c-a140-a66da4a2a825, True
+15-06 15:26:19.532|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+15-06 15:26:20.763|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+15-06 15:26:21.298|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+15-06 15:26:21.368|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: d193de18-bedc-4569-94d0-0da481ecc271
+15-06 15:26:21.556|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+15-06 15:26:21.604|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+15-06 15:26:21.604|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 5a89157e-a9d7-462c-b199-d9d881fdc8cf
+15-06 15:26:21.737|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 126 ms to complete.
+15-06 15:26:21.933|INFO |DatabaseStats:Completely recalculating database statistics...
+15-06 15:26:21.952|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 5a89157e-a9d7-462c-b199-d9d881fdc8cf, True
+15-06 15:26:22.111|INFO |PlayniteApplication:Application 10.17.0.18278 started
+15-06 15:26:22.170|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 你的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 你的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+15-06 15:26:26.794|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+15-06 15:26:27.146|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+15-06 15:26:30.539|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+15-06 15:26:32.821|WARN |PlayniteApplication:Failed to process addon update check.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Services.BaseServicesClient.ExecuteGetRequest[T](String subUrl) 位置 C:\projects\playnite\source\Playnite\Services\BaseServicesClient.cs:行号 34
+   在 Playnite.Services.ServicesClient.GetAddonBlacklist() 位置 C:\projects\playnite\source\Playnite\Services\ServicesClient.cs:行号 88
+   在 Playnite.Addons.CheckAddonUpdates(ServicesClient serviceClient) 位置 C:\projects\playnite\source\Playnite\Addons\Addons.cs:行号 127
+   在 Playnite.PlayniteApplication.CheckForUpdates(Boolean checkProgram, Boolean checkAddons) 位置 C:\projects\playnite\source\Playnite\App\PlayniteApplication.cs:行号 1306
