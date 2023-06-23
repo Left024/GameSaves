@@ -2342,3 +2342,30 @@ System.Exception: Emulator not found.
 22-06 14:57:14.119|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
 22-06 14:57:14.204|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
 22-06 14:59:01.011|INFO |GamesEditor:Game The Legend of Zelda: Tears of the Kingdom stopped after 107 seconds.
+22-06 23:42:38.464|INFO |PlayniteApplication:Shutting down application because of session ending.
+22-06 23:42:38.542|DEBUG|PlayniteApplication:Releasing Playnite resources...
+22-06 23:42:38.566|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 8dd7c652-be9f-4444-ad9b-ddb59e3f8096
+22-06 23:42:38.586|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 8dd7c652-be9f-4444-ad9b-ddb59e3f8096, True
+23-06 20:40:15.865|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+23-06 20:40:17.359|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+23-06 20:40:18.038|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+23-06 20:40:18.086|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 98d51a80-2bb0-4cb5-bc28-c236ac56bdd1
+23-06 20:40:18.264|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+23-06 20:40:18.315|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+23-06 20:40:18.315|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 50692db9-7983-43dc-bc03-ba7380db9633
+23-06 20:40:18.463|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 143 ms to complete.
+23-06 20:40:18.695|INFO |DatabaseStats:Completely recalculating database statistics...
+23-06 20:40:18.709|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 50692db9-7983-43dc-bc03-ba7380db9633, True
+23-06 20:40:18.870|INFO |PlayniteApplication:Application 10.17.0.18278 started
+23-06 20:40:19.053|INFO |MainViewModelBase:Importing emulated games from Config config.
+23-06 20:40:19.057|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+23-06 20:40:19.086|INFO |MainViewModelBase:Starting Library Install Size scan
+23-06 20:40:19.090|INFO |MainViewModelBase:Finished Library Install Size scan
+23-06 20:40:23.882|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+23-06 20:40:30.248|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
