@@ -2418,3 +2418,21 @@ System.Exception: Emulator not found.
 24-06 23:19:15.305|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
 24-06 23:19:15.717|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
 24-06 23:19:18.556|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+25-06 00:08:38.178|INFO |PlayniteApplication:Shutting down application because of session ending.
+25-06 00:08:38.284|DEBUG|PlayniteApplication:Releasing Playnite resources...
+25-06 00:08:38.309|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: d71932ca-8a90-4820-96e0-24a0f0caed0c
+25-06 00:08:38.338|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: d71932ca-8a90-4820-96e0-24a0f0caed0c, True
+25-06 00:10:00.561|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+25-06 00:10:02.023|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+25-06 00:10:02.672|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+25-06 00:10:02.716|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 606a6365-62f9-4606-8dff-db948f5db6f9
+25-06 00:10:02.870|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+25-06 00:10:02.909|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+25-06 00:10:02.909|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: ae7588a2-0348-437b-82b9-6aa59fbb3ca8
+25-06 00:10:03.046|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 133 ms to complete.
+25-06 00:10:03.247|INFO |DatabaseStats:Completely recalculating database statistics...
+25-06 00:10:03.262|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: ae7588a2-0348-437b-82b9-6aa59fbb3ca8, True
+25-06 00:10:03.406|INFO |PlayniteApplication:Application 10.17.0.18278 started
+25-06 00:10:08.308|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+25-06 00:10:08.424|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+25-06 00:10:11.958|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
