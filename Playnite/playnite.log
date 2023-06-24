@@ -2400,3 +2400,21 @@ System.Exception: Emulator not found.
 24-06 22:39:04.376|DEBUG|GamesEditor:Using generic controller start a game.
 24-06 22:39:04.474|DEBUG|ProcessStarter:Starting process: C:\Windows\System32\notepad.exe, , , False
 24-06 22:39:04.601|INFO |GamesEditor:Started The Legend of Zelda: Tears of the Kingdom game.
+24-06 23:10:56.796|INFO |PlayniteApplication:Shutting down application because of session ending.
+24-06 23:10:56.881|DEBUG|PlayniteApplication:Releasing Playnite resources...
+24-06 23:10:56.906|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: ad3c3d0a-2c96-4481-a2d5-58b99cbfe7fe
+24-06 23:10:56.906|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: ad3c3d0a-2c96-4481-a2d5-58b99cbfe7fe, True
+24-06 23:19:07.540|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+24-06 23:19:09.195|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+24-06 23:19:09.911|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+24-06 23:19:09.956|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 232ac993-46cf-4b23-9534-1f9ced161d4f
+24-06 23:19:10.118|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+24-06 23:19:10.155|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+24-06 23:19:10.155|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: bb9811df-9bc4-4a52-85f5-9e6b926760f8
+24-06 23:19:10.293|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 134 ms to complete.
+24-06 23:19:10.515|INFO |DatabaseStats:Completely recalculating database statistics...
+24-06 23:19:10.529|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: bb9811df-9bc4-4a52-85f5-9e6b926760f8, True
+24-06 23:19:10.680|INFO |PlayniteApplication:Application 10.17.0.18278 started
+24-06 23:19:15.305|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+24-06 23:19:15.717|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+24-06 23:19:18.556|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
