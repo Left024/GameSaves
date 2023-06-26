@@ -2475,3 +2475,187 @@ System.Exception: Emulator not found.
 25-06 20:58:45.157|INFO |MainViewModelBase:Finished Library Install Size scan
 25-06 20:58:49.886|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
 25-06 20:58:55.507|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+26-06 00:05:22.706|INFO |PlayniteApplication:Shutting down application because of session ending.
+26-06 00:05:22.786|DEBUG|PlayniteApplication:Releasing Playnite resources...
+26-06 00:05:22.809|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 1a5e21e3-a128-4dbb-bfa9-8591f19fc5bf
+26-06 00:05:22.825|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 1a5e21e3-a128-4dbb-bfa9-8591f19fc5bf, True
+26-06 20:58:34.864|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+26-06 20:58:36.381|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+26-06 20:58:37.088|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+26-06 20:58:37.131|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: fa56271b-f25b-4b11-9227-097640e90305
+26-06 20:58:37.278|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+26-06 20:58:37.315|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+26-06 20:58:37.315|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 19e71e73-0ec1-445a-a79f-1ebe8c97636c
+26-06 20:58:37.455|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 135 ms to complete.
+26-06 20:58:38.038|INFO |DatabaseStats:Completely recalculating database statistics...
+26-06 20:58:38.052|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 19e71e73-0ec1-445a-a79f-1ebe8c97636c, True
+26-06 20:58:38.308|INFO |PlayniteApplication:Application 10.17.0.18278 started
+26-06 20:58:42.801|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+26-06 20:58:43.314|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+26-06 20:58:58.385|WARN |PlayniteApplication:Failed to post user usage data.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+26-06 20:59:03.359|WARN |Updater:Failed to download update manifest from main URL
+System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 Playnite.Common.Web.Downloader.DownloadString(String url, Encoding encoding) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 98
+   在 Playnite.Common.Web.Downloader.DownloadString(String url) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 69
+   在 Playnite.Updater.GetUpdateManifestData(String url) 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 226
+   在 Playnite.Updater.DownloadManifest() 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 182
+26-06 20:59:03.382|DEBUG|Downloader:Downloading string content from https://api2.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+26-06 20:59:23.419|WARN |Updater:Failed to download update manifest from secondary URL
+System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 Playnite.Common.Web.Downloader.DownloadString(String url, Encoding encoding) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 98
+   在 Playnite.Common.Web.Downloader.DownloadString(String url) 位置 C:\projects\playnite\source\Playnite\Common\Web\Downloader.cs:行号 69
+   在 Playnite.Updater.GetUpdateManifestData(String url) 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 226
+   在 Playnite.Updater.DownloadManifest() 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 182
+26-06 20:59:23.419|WARN |PlayniteApplication:Failed to process program update.
+System.Exception: Failed to download update manifest.
+   在 Playnite.Updater.DownloadManifest() 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 207
+   在 Playnite.Updater.get_IsUpdateAvailable() 位置 C:\projects\playnite\source\Playnite\App\Updater.cs:行号 47
+   在 Playnite.PlayniteApplication.CheckForUpdates(Boolean checkProgram, Boolean checkAddons) 位置 C:\projects\playnite\source\Playnite\App\PlayniteApplication.cs:行号 1264
+26-06 20:59:43.513|ERROR|Addons:Failed to check for addon for update. IGDBMetadata_Builtin
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Services.BaseServicesClient.ExecuteGetRequest[T](String subUrl) 位置 C:\projects\playnite\source\Playnite\Services\BaseServicesClient.cs:行号 34
+   在 Playnite.Addons.CheckAddonsForUpdate(IEnumerable`1 manifests, ServicesClient serviceClient) 位置 C:\projects\playnite\source\Playnite\Addons\Addons.cs:行号 64
+26-06 21:00:03.606|WARN |PlayniteApplication:Failed to process addon update check.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Services.BaseServicesClient.ExecuteGetRequest[T](String subUrl) 位置 C:\projects\playnite\source\Playnite\Services\BaseServicesClient.cs:行号 34
+   在 Playnite.Services.ServicesClient.GetAddonBlacklist() 位置 C:\projects\playnite\source\Playnite\Services\ServicesClient.cs:行号 88
+   在 Playnite.Addons.CheckAddonUpdates(ServicesClient serviceClient) 位置 C:\projects\playnite\source\Playnite\Addons\Addons.cs:行号 127
+   在 Playnite.PlayniteApplication.CheckForUpdates(Boolean checkProgram, Boolean checkAddons) 位置 C:\projects\playnite\source\Playnite\App\PlayniteApplication.cs:行号 1306
+26-06 21:00:18.487|WARN |PlayniteApplication:Failed to process addon blacklist check.
+System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Playnite.Services.BaseServicesClient.ExecuteGetRequest[T](String subUrl) 位置 C:\projects\playnite\source\Playnite\Services\BaseServicesClient.cs:行号 34
+   在 Playnite.Services.ServicesClient.GetAddonBlacklist() 位置 C:\projects\playnite\source\Playnite\Services\ServicesClient.cs:行号 88
+   在 Playnite.PlayniteApplication.CheckAddonBlacklist() 位置 C:\projects\playnite\source\Playnite\App\PlayniteApplication.cs:行号 1241
+26-06 21:00:18.506|INFO |PlayniteApplication:Shutting down application because of session ending.
+26-06 21:00:18.506|DEBUG|PlayniteApplication:Releasing Playnite resources...
+26-06 21:00:18.536|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 70b0fefe-73be-4a80-b5fb-4e2265459e67
+26-06 21:00:18.536|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 70b0fefe-73be-4a80-b5fb-4e2265459e67, True
+26-06 21:02:23.231|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+26-06 21:02:25.286|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+26-06 21:02:26.312|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+26-06 21:02:26.394|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 000349b8-4e3a-46bc-b5e1-cbaf0a52ce45
+26-06 21:02:26.633|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+26-06 21:02:26.680|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+26-06 21:02:26.680|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: dfab08b5-966c-4811-b39d-567b68ceebce
+26-06 21:02:26.835|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 151 ms to complete.
+26-06 21:02:27.076|INFO |DatabaseStats:Completely recalculating database statistics...
+26-06 21:02:27.094|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: dfab08b5-966c-4811-b39d-567b68ceebce, True
+26-06 21:02:27.224|INFO |PlayniteApplication:Application 10.17.0.18278 started
+26-06 21:02:31.808|WARN |MainViewModelBase:Startup library update disabled because of no internet connection.
+26-06 21:02:32.232|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+26-06 21:02:34.964|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+26-06 21:04:05.804|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+26-06 21:04:08.324|DEBUG|Downloader:Downloading string content from multiple mirrors.
+26-06 21:04:08.324|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18.html using System.Text.UTF8Encoding encoding.
+26-06 21:04:08.711|DEBUG|WindowFactory:Show dialog window Playnite.Windows.UpdateWindowFactory: c46bf0fb-1e6f-4485-b938-fcb856f5f9ca
+26-06 21:04:10.173|DEBUG|WindowFactory:Closing window Playnite.Windows.UpdateWindowFactory: c46bf0fb-1e6f-4485-b938-fcb856f5f9ca, 
+26-06 21:04:11.010|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.17/update.json using System.Text.UTF8Encoding encoding.
+26-06 21:04:13.796|DEBUG|Downloader:Downloading string content from multiple mirrors.
+26-06 21:04:13.796|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18.html using System.Text.UTF8Encoding encoding.
+26-06 21:04:14.145|DEBUG|WindowFactory:Show dialog window Playnite.Windows.UpdateWindowFactory: 22542876-7cc9-44e8-9c08-69e40f6c117c
+26-06 21:04:15.104|ERROR|Updater:Checksum of downloaded file doesn't match: 28E2793FE3537566598B9CC530E251C4 vs 032F5F3091E845DBA3E42C474D468057
+26-06 21:04:15.104|DEBUG|Downloader:Downloading data async from multiple mirrors.
+26-06 21:04:15.104|DEBUG|Downloader:Downloading data async from https://www.playnite.link/update/stable/10.18/1017to1018.exe to C:\Users\han\AppData\Local\Temp\Playnite\update.exe.
+26-06 21:04:20.732|INFO |Updater:Installing new update to C:\Users\han\AppData\Local\Playnite, in  mode
+26-06 21:04:20.732|INFO |PlayniteApplication:Shutting down Playnite and starting an app.
+26-06 21:04:20.798|DEBUG|PlayniteApplication:Releasing Playnite resources...
+26-06 21:04:20.816|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: c2a0a0f3-0257-45de-8b81-f3eccf0e42fd
+26-06 21:04:20.816|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: c2a0a0f3-0257-45de-8b81-f3eccf0e42fd, True
+26-06 21:04:20.916|DEBUG|ProcessStarter:Starting process: C:\Users\han\AppData\Local\Temp\Playnite\update.exe, /SILENT /NOCANCEL /DIR="C:\Users\han\AppData\Local\Playnite" /UPDATE  , , False
+26-06 21:04:23.066|INFO |ProgramEntry:App arguments: ''
+26-06 21:04:23.869|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+26-06 21:04:24.172|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+26-06 21:04:24.203|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 22eb39c8-1945-431f-9242-bf76e1e791c3
+26-06 21:04:24.352|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+26-06 21:04:24.391|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+26-06 21:04:24.391|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 309dad40-4a47-459d-a6b9-0a9c6fc1f32b
+26-06 21:04:24.484|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 90 ms to complete.
+26-06 21:04:24.586|INFO |DatabaseStats:Completely recalculating database statistics...
+26-06 21:04:24.597|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 309dad40-4a47-459d-a6b9-0a9c6fc1f32b, True
+26-06 21:04:24.718|INFO |PlayniteApplication:Application 10.18.0.17924 started
+26-06 21:04:24.906|INFO |MainViewModelBase:Importing emulated games from Config config.
+26-06 21:04:24.911|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+26-06 21:04:24.927|INFO |MainViewModelBase:Starting Library Install Size scan
+26-06 21:04:24.927|INFO |MainViewModelBase:Finished Library Install Size scan
+26-06 21:04:29.731|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18/update.json using System.Text.UTF8Encoding encoding.
+26-06 21:04:32.356|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
