@@ -2979,3 +2979,30 @@ System.Exception: Emulator not found.
 07-07 17:04:15.299|INFO |MainViewModelBase:Finished Library Install Size scan
 07-07 17:04:20.012|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18/update.json using System.Text.UTF8Encoding encoding.
 07-07 17:04:23.341|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
+07-07 18:26:39.376|INFO |PlayniteApplication:Shutting down application because of session ending.
+07-07 18:26:39.459|DEBUG|PlayniteApplication:Releasing Playnite resources...
+07-07 18:26:39.478|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 91bc4f41-1d52-4718-b1da-01a861b29918
+07-07 18:26:39.559|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 91bc4f41-1d52-4718-b1da-01a861b29918, True
+07-07 18:27:45.493|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+07-07 18:27:47.693|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+07-07 18:27:48.875|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+07-07 18:27:48.964|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 2f470f01-8998-4e2f-8631-6df9a9ed1b90
+07-07 18:27:49.229|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+07-07 18:27:49.279|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+07-07 18:27:49.279|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 9d075e15-a948-498a-ad43-4e80f50cfd18
+07-07 18:27:49.464|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 179 ms to complete.
+07-07 18:27:49.809|INFO |DatabaseStats:Completely recalculating database statistics...
+07-07 18:27:49.831|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 9d075e15-a948-498a-ad43-4e80f50cfd18, True
+07-07 18:27:50.030|INFO |PlayniteApplication:Application 10.18.0.17924 started
+07-07 18:27:50.204|INFO |MainViewModelBase:Importing emulated games from Config config.
+07-07 18:27:50.211|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+07-07 18:27:50.247|INFO |MainViewModelBase:Starting Library Install Size scan
+07-07 18:27:50.247|INFO |MainViewModelBase:Finished Library Install Size scan
+07-07 18:27:55.039|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18/update.json using System.Text.UTF8Encoding encoding.
+07-07 18:27:58.267|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
