@@ -3190,3 +3190,26 @@ System.Exception: Emulator not found.
 12-07 18:04:52.103|DEBUG|PlayniteApplication:Releasing Playnite resources...
 12-07 18:04:52.119|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 8cfe537a-5634-488e-b65b-e265d62d011e
 12-07 18:04:52.137|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 8cfe537a-5634-488e-b65b-e265d62d011e, True
+13-07 16:45:46.623|INFO |ProgramEntry:App arguments: '--hidesplashscreen,--startclosedtotray'
+13-07 16:45:48.569|INFO |PlayniteApplication:Application started from 'C:\Users\han\AppData\Local\Playnite'
+13-07 16:45:49.873|INFO |ExtensionFactory:Loaded plugin: IGDB metadata provider, version 2.7
+13-07 16:45:49.972|DEBUG|WindowFactory:Show window Playnite.DesktopApp.Windows.MainWindowFactory: 695d1c20-148e-49e3-83b3-027f89690e14
+13-07 16:45:50.227|DEBUG|GamesCollectionViewEntry:Reloading collection item view properties.
+13-07 16:45:50.258|INFO |GameDatabase:Opening db C:\Users\han\AppData\Roaming\Playnite\library
+13-07 16:45:50.258|DEBUG|WindowFactory:Show dialog window Playnite.Windows.ProgressWindowFactory: 210adafc-d6b8-4e86-ae12-1a9a11bd7fc6
+13-07 16:45:50.428|DEBUG|ExecutionTimer:--- Timer 'DatabaseLoadCollections', 167 ms to complete.
+13-07 16:45:50.733|INFO |DatabaseStats:Completely recalculating database statistics...
+13-07 16:45:50.747|DEBUG|WindowFactory:Closing window Playnite.Windows.ProgressWindowFactory: 210adafc-d6b8-4e86-ae12-1a9a11bd7fc6, True
+13-07 16:45:50.886|INFO |PlayniteApplication:Application 10.18.0.17924 started
+13-07 16:45:51.049|INFO |MainViewModelBase:Importing emulated games from Config config.
+13-07 16:45:51.049|ERROR|MainViewModelBase:Failed to import emulated games from config:
+
+00000000-0000-0000-0000-000000000000
+
+System.Exception: Emulator not found.
+   在 Playnite.Emulators.GameScanner.Scan(CancellationToken cancelToken, List`1& newPlatforms, List`1& newRegions, Action`1 fileScanCallback) 位置 C:\projects\playnite\source\Playnite\Emulators\Scanner.cs:行号 189
+   在 Playnite.ViewModels.MainViewModelBase.ImportEmulatedGames(GameScannerConfig scanConfig, CancellationToken token) 位置 C:\projects\playnite\source\Playnite\ViewModels\MainViewModelBase.cs:行号 711
+13-07 16:45:51.083|INFO |MainViewModelBase:Starting Library Install Size scan
+13-07 16:45:51.083|INFO |MainViewModelBase:Finished Library Install Size scan
+13-07 16:45:55.898|DEBUG|Downloader:Downloading string content from https://www.playnite.link/update/stable/10.18/update.json using System.Text.UTF8Encoding encoding.
+13-07 16:45:58.586|DEBUG|Downloader:Downloading string content from https://github.com/JosefNemec/PlayniteExtensions/raw/master/manifests/IGDBMetadata_Builtin.yaml using UTF8 encoding.
