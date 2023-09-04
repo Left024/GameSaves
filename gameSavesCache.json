@@ -1950,9 +1950,9 @@
         }
     },
     "1850570": {
-        "KojimaProductions/DeathStrandingDC/360129019/autosave0/checkpoint.dat": {
-            "size": "105.64 KB",
-            "time": "6 月 22 日 上午 3:57"
+        "KojimaProductions/DeathStrandingDC/360129019/autosave1/checkpoint.dat": {
+            "size": "125.39 KB",
+            "time": "9 月 4 日 上午 4:40"
         },
         "KojimaProductions/DeathStrandingDC/360129019/manualsave0/checkpoint.dat": {
             "size": "98.7 KB",
@@ -1968,7 +1968,7 @@
         },
         "KojimaProductions/DeathStrandingDC/360129019/profile/profile.dat": {
             "size": "2.72 KB",
-            "time": "6 月 22 日 上午 3:58"
+            "time": "9 月 4 日 上午 4:54"
         },
         "KojimaProductions/DeathStrandingDC/360129019/quicksave0/checkpoint.dat": {
             "size": "107.87 KB",
@@ -1985,6 +1985,22 @@
         "KojimaProductions/DeathStrandingDC/360129019/quicksave3/checkpoint.dat": {
             "size": "110.26 KB",
             "time": "6 月 22 日 上午 4:24"
+        },
+        "KojimaProductions/DeathStrandingDC/360129019/quicksave4/checkpoint.dat": {
+            "size": "118.05 KB",
+            "time": "9 月 4 日 上午 4:27"
+        },
+        "KojimaProductions/DeathStrandingDC/360129019/quicksave5/checkpoint.dat": {
+            "size": "121.88 KB",
+            "time": "9 月 4 日 上午 4:45"
+        },
+        "KojimaProductions/DeathStrandingDC/360129019/quicksave6/checkpoint.dat": {
+            "size": "133.41 KB",
+            "time": "9 月 4 日 上午 4:52"
+        },
+        "KojimaProductions/DeathStrandingDC/360129019/quicksave7/checkpoint.dat": {
+            "size": "124.7 KB",
+            "time": "9 月 4 日 上午 4:57"
         }
     }
 }
