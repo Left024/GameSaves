@@ -1837,8 +1837,8 @@
     },
     "2050650": {
         "win64_save/data00-1.bin": {
-            "size": "158.75 KB",
-            "time": "9 月 21 日 上午 6:33"
+            "size": "163.28 KB",
+            "time": "9 月 21 日 上午 7:30"
         },
         "win64_save/data000.bin": {
             "size": "127.03 KB",
@@ -1923,6 +1923,14 @@
         "win64_save/data020Slot.bin": {
             "size": "3.38 MB",
             "time": "4 月 5 日 上午 1:51"
+        },
+        "win64_save/data100Slot.bin": {
+            "size": "575.62 KB",
+            "time": "9 月 21 日 上午 7:26"
+        },
+        "win64_save/data101Slot.bin": {
+            "size": "371.71 KB",
+            "time": "9 月 21 日 上午 7:00"
         }
     },
     "2253470": {
