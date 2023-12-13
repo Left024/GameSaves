@@ -1,9 +1,9 @@
 name: Update
 
 on:
-  schedule:
-    - cron: '*/60 * * * *'
-  #push:
+  #schedule:
+#    - cron: '*/60 * * * *'
+  push:
     #branches:
     #- main
 
