@@ -286,12 +286,16 @@ ownedGames=getSteamOwnedGames()
 argv=getArgv()
 #t = time.time()
 #client.login(two_factor_code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)), username=argv['userName'], password=argv['passWord'])
-session=steamLogin()
+
+needDownload=False
 for id in ownedGames['response']['games']:
     rtime_last_played={}
     try:
         if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid']!=313340:         
             #client.idle()
+            if not needDownload:
+                needDownload=True
+                session=steamLogin()
             downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
@@ -301,6 +305,9 @@ for id in ownedGames['response']['games']:
     except:
         if id['appid']!=313340:
             #client.idle()
+            if not needDownload:
+                needDownload=True
+                session=steamLogin()
             downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
             rtime_last_played['name']=id['name']
             rtime_last_played['rtime_last_played']=id['rtime_last_played']
