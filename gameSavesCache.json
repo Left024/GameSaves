@@ -376,21 +376,13 @@
         }
     },
     "250900": {
-        "abp_persistentgamedata1.dat": {
-            "size": "9.45 KB",
-            "time": "2021 年 12 月 5 日 上午 6:47"
-        },
-        "ab_persistentgamedata1.dat": {
-            "size": "1.79 KB",
-            "time": "2016 年 12 月 17 日 上午 8:18"
-        },
         "rep_gamestate1.dat": {
-            "size": "98.37 KB",
-            "time": "3 月 21 日 上午 4:00"
+            "size": "68.44 KB",
+            "time": "3 月 22 日 上午 4:59"
         },
         "rep_persistentgamedata1.dat": {
-            "size": "14.8 KB",
-            "time": "3 月 21 日 上午 4:00"
+            "size": "14.82 KB",
+            "time": "3 月 22 日 上午 4:59"
         },
         "rerunstate1.dat": {
             "size": "7.83 KB",
