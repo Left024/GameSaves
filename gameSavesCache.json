@@ -376,21 +376,13 @@
         }
     },
     "250900": {
-        "abp_persistentgamedata1.dat": {
-            "size": "9.45 KB",
-            "time": "2021 年 12 月 5 日 上午 6:47"
-        },
-        "ab_persistentgamedata1.dat": {
-            "size": "1.79 KB",
-            "time": "2016 年 12 月 17 日 上午 8:18"
-        },
         "rep_gamestate1.dat": {
-            "size": "112.88 KB",
-            "time": "4 月 18 日 下午 4:22"
+            "size": "87.85 KB",
+            "time": "4 月 19 日 下午 3:35"
         },
         "rep_persistentgamedata1.dat": {
-            "size": "15 KB",
-            "time": "4 月 18 日 下午 4:22"
+            "size": "15.03 KB",
+            "time": "4 月 19 日 下午 3:35"
         },
         "rerunstate1.dat": {
             "size": "7.83 KB",
@@ -834,17 +826,9 @@
         }
     },
     "582010": {
-        "PhotoData00.dat": {
-            "size": "7.55 KB",
-            "time": "2020 年 1 月 10 日 下午 11:33"
-        },
-        "SAVEDATA1000": {
-            "size": "10.76 MB",
-            "time": "1 月 14 日 下午 8:02"
-        },
-        "SAVEDATA_B": {
-            "size": "16.7 KB",
-            "time": "2019 年 1 月 20 日 上午 1:26"
+        "slot00": {
+            "size": "80.04 KB",
+            "time": "4 月 19 日 下午 4:09"
         }
     },
     "675010": {
