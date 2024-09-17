@@ -14,7 +14,7 @@
   <launching_flag type="hexBinary" length="4">00000005</launching_flag>
   <install_flag type="hexBinary" length="4">00000000</install_flag>
   <closing_msg type="unsignedInt" length="4">1</closing_msg>
-  <title_version type="unsignedInt" length="4">208</title_version>
+  <title_version type="unsignedInt" length="4">0</title_version>
   <title_id type="hexBinary" length="8">00050000101C9300</title_id>
   <group_id type="hexBinary" length="4">00001C93</group_id>
   <boss_id type="hexBinary" length="8">0000000000000000</boss_id>
@@ -29,7 +29,7 @@
   <join_game_mode_mask type="hexBinary" length="8">0000000000000000</join_game_mode_mask>
   <bg_daemon_enable type="unsignedInt" length="4">1</bg_daemon_enable>
   <olv_accesskey type="unsignedInt" length="4">608061565</olv_accesskey>
-  <wood_tin type="unsignedInt" length="4">2817890484</wood_tin>
+  <wood_tin type="unsignedInt" length="4">0</wood_tin>
   <e_manual type="unsignedInt" length="4">1</e_manual>
   <e_manual_version type="unsignedInt" length="4">0</e_manual_version>
   <region type="hexBinary" length="4">00000001</region>
@@ -98,7 +98,7 @@ Breath of the Wild</longname_ru>
   <shortname_es type="string" length="256">Breath of the Wild</shortname_es>
   <shortname_zhs type="string" length="256"></shortname_zhs>
   <shortname_ko type="string" length="256"></shortname_ko>
-  <shortname_nl type="string" length="256">Breath of the Wild</shortname_nl>
+  <shortname_nl type="string" length="256"></shortname_nl>
   <shortname_pt type="string" length="256">Breath of the Wild</shortname_pt>
   <shortname_ru type="string" length="256">Breath of the Wild</shortname_ru>
   <shortname_zht type="string" length="256"></shortname_zht>
@@ -110,11 +110,11 @@ Breath of the Wild</longname_ru>
   <publisher_es type="string" length="256">Nintendo</publisher_es>
   <publisher_zhs type="string" length="256"></publisher_zhs>
   <publisher_ko type="string" length="256"></publisher_ko>
-  <publisher_nl type="string" length="256">Nintendo</publisher_nl>
+  <publisher_nl type="string" length="256"></publisher_nl>
   <publisher_pt type="string" length="256">Nintendo</publisher_pt>
   <publisher_ru type="string" length="256">Nintendo</publisher_ru>
   <publisher_zht type="string" length="256"></publisher_zht>
-  <add_on_unique_id0 type="hexBinary" length="4">00001C93</add_on_unique_id0>
+  <add_on_unique_id0 type="hexBinary" length="4">00000000</add_on_unique_id0>
   <add_on_unique_id1 type="hexBinary" length="4">00000000</add_on_unique_id1>
   <add_on_unique_id2 type="hexBinary" length="4">00000000</add_on_unique_id2>
   <add_on_unique_id3 type="hexBinary" length="4">00000000</add_on_unique_id3>
