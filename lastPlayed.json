@@ -1062,5 +1062,13 @@
     "220": {
         "name": "Half-Life 2",
         "rtime_last_played": 0
+    },
+    "320": {
+        "name": "Half-Life 2: Deathmatch",
+        "rtime_last_played": 0
+    },
+    "360": {
+        "name": "Half-Life Deathmatch: Source",
+        "rtime_last_played": 0
     }
 }
