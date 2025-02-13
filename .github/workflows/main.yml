@@ -1,8 +1,8 @@
 name: Update
 
 on:
-  #schedule:
-    #- cron: '*/60 * * * *'
+  schedule:
+    - cron: '*/60 * * * *'
   push:
     branches:
       - main
@@ -24,8 +24,8 @@ jobs:
 
       - name: Install requirements
         run: |
-          #pip3 install "git+https://github.com/ValvePython/steam#egg=steam[client]"
-          pip3 install steampy
+          pip3 install "git+https://github.com/solsticegamestudios/steam@v1.6.1#egg=steam[client]"
+          #pip3 install steampy
           pip3 install bs4
           pip3 install html5lib
 
