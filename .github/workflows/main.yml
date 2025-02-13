@@ -1,11 +1,11 @@
 name: Update
 
 on:
-  schedule:
-    - cron: '*/60 * * * *'
-  #push:
-  #  branches:
-  #    - main
+  #schedule:
+    #- cron: '*/60 * * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   sync:
