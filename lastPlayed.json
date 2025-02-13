@@ -417,7 +417,7 @@
     },
     "413150": {
         "name": "Stardew Valley",
-        "rtime_last_played": 1682264624
+        "rtime_last_played": 1739437568
     },
     "413410": {
         "name": "Danganronpa: Trigger Happy Havoc",
@@ -1090,5 +1090,9 @@
     "993090": {
         "name": "Lossless Scaling",
         "rtime_last_played": 1739189169
+    },
+    "2001120": {
+        "name": "Split Fiction",
+        "rtime_last_played": 0
     }
 }
