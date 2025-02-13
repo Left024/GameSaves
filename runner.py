@@ -178,7 +178,7 @@ def steamLogin():
 #        t = time.time()
 #        user.login(twofactor_code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)))
 #    return user
-    login = LoginExecutor('Left024', 'p2$$@D%4id3x22Jg', 't/jkCpmJYOQRD3WsBZWKYv34ytU=')
+    login = LoginExecutor('Left024', argv['passWord'], argv['sharedSecret'])
     session = login.login()
     return session
 
