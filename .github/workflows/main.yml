@@ -20,14 +20,14 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Install requirements
         run: |
-          pip3 install "git+https://github.com/solsticegamestudios/steam@v1.6.1#egg=steam[client]"
+          pip install "git+https://github.com/solsticegamestudios/steam@v1.6.1#egg=steam[client]"
           #pip3 install steampy
-          pip3 install bs4
-          pip3 install html5lib
+          pip install bs4
+          pip install html5lib
 
       - name: Download saves
         run: |
