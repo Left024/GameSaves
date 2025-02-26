@@ -163,13 +163,13 @@ argv=getArgv()
 #url="https://store.steampowered.com/account/remotestorageapp/?appid=313340"
 #res=user.session.get(url)
 #print(res.text)
-
+BlackList=[313340,578080]
 needDownload=False
 for id in ownedGames['response']['games']:
     rtime_last_played={}
     print("Strat "+id['name'])
     try:
-        if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid']!=313340:         
+        if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid'] not in BlackList:         
             #client.idle()
             if not needDownload:
                 needDownload=True
