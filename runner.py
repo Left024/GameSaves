@@ -165,34 +165,35 @@ argv=getArgv()
 #print(res.text)
 BlackList=[313340,578080]
 needDownload=False
-for id in ownedGames['response']['games']:
-    rtime_last_played={}
-    print("Strat "+id['name'])
-    try:
-        if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid'] not in BlackList:         
-            #client.idle()
-            if not needDownload:
-                needDownload=True
-                session=steamLogin()
+if 'response' in ownedGames:
+    for id in ownedGames['response']['games']:
+        rtime_last_played={}
+        print("Strat "+id['name'])
+        try:
+            if id['rtime_last_played']>lastPlayed[str(id['appid'])]['rtime_last_played'] and id['rtime_last_played'] != 0 and id['appid'] not in BlackList:         
                 #client.idle()
-                #session=client.get_web_session()
-            downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
-            rtime_last_played['name']=id['name']
-            rtime_last_played['rtime_last_played']=id['rtime_last_played']
-            lastPlayed[str(id['appid'])]=rtime_last_played
-        else:
-            print("Skip "+id['name'])
-    except:
-        if id['appid']!=313340:
-            #client.idle()
-            if not needDownload:
-                needDownload=True
-                session=steamLogin()
+                if not needDownload:
+                    needDownload=True
+                    session=steamLogin()
+                    #client.idle()
+                    #session=client.get_web_session()
+                downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
+                rtime_last_played['name']=id['name']
+                rtime_last_played['rtime_last_played']=id['rtime_last_played']
+                lastPlayed[str(id['appid'])]=rtime_last_played
+            else:
+                print("Skip "+id['name'])
+        except:
+            if id['appid']!=313340:
                 #client.idle()
-                #session=client.get_web_session()
-            downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
-            rtime_last_played['name']=id['name']
-            rtime_last_played['rtime_last_played']=id['rtime_last_played']
-            lastPlayed[str(id['appid'])]=rtime_last_played
-        
-write_json_data(lastPlayed,"lastPlayed.json")
+                if not needDownload:
+                    needDownload=True
+                    session=steamLogin()
+                    #client.idle()
+                    #session=client.get_web_session()
+                downloadSteamGamesSavesWithGameID(session,str(id['appid']),str(id['name']))
+                rtime_last_played['name']=id['name']
+                rtime_last_played['rtime_last_played']=id['rtime_last_played']
+                lastPlayed[str(id['appid'])]=rtime_last_played
+            
+    write_json_data(lastPlayed,"lastPlayed.json")
