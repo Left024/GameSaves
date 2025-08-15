@@ -50,7 +50,7 @@ def steamLogin():
     user = wa.WebAuth()
     try:
         t = time.time()
-        user.login(username='Left024',password=argv['passWord'],code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)))
+        user.login(username='Left024',password=argv['passWord'],code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret'] + '=' * (-len(argv['sharedSecret']) % 4)),int(t)))
     except wa.TwoFactorCodeRequired:
         t = time.time()
         user.login(code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)))
