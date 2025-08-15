@@ -1946,5 +1946,33 @@
             "size": "60 B",
             "time": "3 月 6 日 下午 7:49"
         }
+    },
+    "2399220": {
+        "savedata/save0001.dat": {
+            "size": "59.66 KB",
+            "time": "7 月 29 日 下午 6:32"
+        },
+        "savedata/save0001.png": {
+            "size": "80.13 KB",
+            "time": "7 月 29 日 下午 6:32"
+        },
+        "savedata/saveg.dat": {
+            "size": "5.72 KB",
+            "time": "7 月 29 日 下午 6:32"
+        },
+        "savedata/system.dat": {
+            "size": "5.61 KB",
+            "time": "7 月 29 日 下午 6:32"
+        }
+    },
+    "3065170": {
+        "win64_save/data00-1.bin": {
+            "size": "96.67 KB",
+            "time": "2 月 8 日 上午 1:02"
+        },
+        "win64_save/data001Slot.bin": {
+            "size": "193.18 KB",
+            "time": "2 月 8 日 上午 1:02"
+        }
     }
 }
