@@ -1,68 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA",
-            "trackedQuestEntry": "quests/vehicle_metaquest/villefort_columbus/villefort_columbus/buy",
-            "trackedQuest": "LocKey#1610",
-            "mainQuest": "LocKey#9860",
-            "debugString": "",
-            "locationName": "LocKey#10953",
-            "playerPosition": {
-                "X": -1772.402099609375,
-                "Y": 223.56301879882813,
-                "Z": 43.72776794433594
-            },
-            "playTime": 67459.9462842,
-            "playthroughTime": 72048.8832182,
-            "nextSavableEntityID": 9010163,
-            "nextNonSavableEntityID": 10171505,
-            "lifePath": "StreetKid",
-            "bodyGender": "Female",
-            "brainGender": "Female",
-            "level": 21.0,
-            "streetCred": 29.0,
-            "gunslinger": 4.0,
-            "assault": 4.0,
-            "demolition": 3.0,
-            "athletics": 2.0,
-            "brawling": 3.0,
-            "coldBlood": 1.0,
-            "stealth": 3.0,
-            "engineering": 2.0,
-            "crafting": 4.0,
-            "hacking": 3.0,
-            "combatHacking": 3.0,
-            "strength": 4.0,
-            "intelligence": 6.0,
-            "reflexes": 4.0,
-            "technicalAbility": 4.0,
-            "cool": 4.0,
-            "initialBuildID": "3.0.3214677  P4CL: 4155897  Stream: //R6.Root/R6.Patch0Hotfix2 ",
-            "finishedQuests": "q004 q005 q000 q001 q003 q112 q110 q105 q104 q101 q103 q108 sq032 sq026 mq038 mq024 sts_wat_lch_01 ma_wat_kab_08 ma_hey_spr_12 sts_wat_kab_07 sts_wbr_hil_07 ",
-            "playthroughID": "5fd1a82d53571dd8",
-            "pointOfNoReturnId": "5fd49b86eb91d0f7",
-            "visitID": "b0422f72-3565-4a7c-b3e7-2db4c4597674",
-            "buildSKU": "",
-            "buildPatch": "1.52",
-            "difficulty": "Easy",
-            "saveVersion": 220,
-            "gameVersion": 1520,
-            "timestampString": "00:13:47, 7.07.2022",
-            "name": "AutoSave-4",
-            "userName": "",
-            "buildID": "3.0.3933216  P4CL: 4790877  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 4446158,
-            "isForced": true,
-            "isCheckpoint": false,
-            "initialLoadingScreenID": 192888460050,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
