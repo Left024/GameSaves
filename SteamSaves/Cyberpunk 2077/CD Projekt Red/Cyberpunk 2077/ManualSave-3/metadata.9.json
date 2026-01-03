@@ -1,76 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
-            "trackedQuestEntry": "quests/main_quest/prologue/q001_intro/ride_to_mb/06_sleep",
-            "trackedQuest": "LocKey#9466",
-            "mainQuest": "LocKey#93496",
-            "debugString": "q001_go_to_sleep",
-            "locationName": "LocKey#44392",
-            "playerPosition": {
-                "X": -1382.5899658203126,
-                "Y": 1276.436279296875,
-                "Z": 123.16299438476563
-            },
-            "playTime": 4492.1899558,
-            "playthroughTime": 4492.1899558,
-            "nextSavableEntityID": 9002083,
-            "nextNonSavableEntityID": 10013306,
-            "lifePath": "Corporate",
-            "bodyGender": "Male",
-            "brainGender": "Male",
-            "level": 2.0,
-            "streetCred": 2.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 4.0,
-            "intelligence": 5.0,
-            "reflexes": 4.0,
-            "technicalAbility": 5.0,
-            "cool": 4.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q000 ",
-            "playthroughID": "695618da6abdce20",
-            "pointOfNoReturnId": "",
-            "visitID": "01c715d9-6ed5-42b9-bbad-7ce905174587",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q000_corpo_background=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "19:53:11, 3.01.2026",
-            "name": "ManualSave-3",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 1943972,
-            "isForced": false,
-            "isCheckpoint": false,
-            "initialLoadingScreenID": 186738114966,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": false,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
