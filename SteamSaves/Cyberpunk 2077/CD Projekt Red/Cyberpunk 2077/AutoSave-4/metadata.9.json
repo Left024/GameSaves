@@ -1,8 +1,75 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/prologue/q000_corpo/office/05b_leave_the_office",
+            "trackedQuest": "LocKey#9461",
+            "mainQuest": "LocKey#9461",
+            "debugString": "q000_corpo_to_after_jenkins",
+            "locationName": "LocKey#10952",
+            "playerPosition": {
+                "X": -1406.18994140625,
+                "Y": 93.56507873535156,
+                "Z": 141.20358276367188
+            },
+            "playTime": 659.1191757,
+            "playthroughTime": 659.1191757,
+            "nextSavableEntityID": 9000706,
+            "nextNonSavableEntityID": 10001829,
+            "lifePath": "Corporate",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 1.0,
+            "streetCred": 1.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 4.0,
+            "intelligence": 5.0,
+            "reflexes": 4.0,
+            "technicalAbility": 5.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "",
+            "playthroughID": "695618da6abdce20",
+            "pointOfNoReturnId": "",
+            "visitID": "5189c583-c0af-43b9-bfe5-ef4c63962c71",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "q000_corpo_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "00:25:57, 2.01.2026",
+            "name": "AutoSave-4",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "steamdeck",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 1589750,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 193330404735,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
