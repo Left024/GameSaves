@@ -1,8 +1,76 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/prologue/q000_tutorial/q000_tutorial/q000_02_complete_courses",
+            "trackedQuest": "LocKey#36141",
+            "mainQuest": "LocKey#93496",
+            "debugString": "q000_vr_tutorial_course_01_done",
+            "locationName": "LocKey#10966",
+            "playerPosition": {
+                "X": -400.1795654296875,
+                "Y": 422.508544921875,
+                "Z": -213.98500061035157
+            },
+            "playTime": 2675.5423102,
+            "playthroughTime": 2675.5423102,
+            "nextSavableEntityID": 9001600,
+            "nextNonSavableEntityID": 10008985,
+            "lifePath": "Corporate",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 1.0,
+            "streetCred": 1.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 4.0,
+            "intelligence": 5.0,
+            "reflexes": 4.0,
+            "technicalAbility": 5.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q000 ",
+            "playthroughID": "695618da6abdce20",
+            "pointOfNoReturnId": "",
+            "visitID": "01c715d9-6ed5-42b9-bbad-7ce905174587",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q000_corpo_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "19:12:09, 3.01.2026",
+            "name": "AutoSave-14",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 1729488,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 186738114966,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
