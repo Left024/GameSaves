@@ -1,8 +1,76 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/prologue/q001_intro/mission0/follow_jackie",
+            "trackedQuest": "LocKey#9466",
+            "mainQuest": "LocKey#93496",
+            "debugString": "q001_enter_scavs",
+            "locationName": "LocKey#10966",
+            "playerPosition": {
+                "X": -470.2691345214844,
+                "Y": 378.8796081542969,
+                "Z": 131.99954223632813
+            },
+            "playTime": 3176.9644036,
+            "playthroughTime": 3176.9644036,
+            "nextSavableEntityID": 9001630,
+            "nextNonSavableEntityID": 10009580,
+            "lifePath": "Corporate",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 1.0,
+            "streetCred": 1.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 4.0,
+            "intelligence": 5.0,
+            "reflexes": 4.0,
+            "technicalAbility": 5.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q000 ",
+            "playthroughID": "695618da6abdce20",
+            "pointOfNoReturnId": "",
+            "visitID": "01c715d9-6ed5-42b9-bbad-7ce905174587",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q000_corpo_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "19:30:06, 3.01.2026",
+            "name": "AutoSave-17",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 1753354,
+            "isForced": true,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 186738114966,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
