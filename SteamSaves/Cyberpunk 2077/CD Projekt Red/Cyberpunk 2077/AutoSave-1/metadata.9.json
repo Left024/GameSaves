@@ -1,8 +1,76 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/prologue/q004_braindance/evelyn/talk_with_evelyn",
+            "trackedQuest": "LocKey#9469",
+            "mainQuest": "LocKey#93496",
+            "debugString": "q004_following_evelyn_to_judy",
+            "locationName": "LocKey#21193",
+            "playerPosition": {
+                "X": -1167.7852783203126,
+                "Y": 1576.5179443359376,
+                "Z": 22.943450927734376
+            },
+            "playTime": 7907.105617,
+            "playthroughTime": 7907.105617,
+            "nextSavableEntityID": 9002576,
+            "nextNonSavableEntityID": 10035508,
+            "lifePath": "Nomad",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 4.0,
+            "streetCred": 3.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 5.0,
+            "intelligence": 5.0,
+            "reflexes": 5.0,
+            "technicalAbility": 5.0,
+            "cool": 5.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q000 q001 ma_wat_kab_12 ",
+            "playthroughID": "69592660fd50a4eb",
+            "pointOfNoReturnId": "",
+            "visitID": "13ecf5cf-8822-4eef-9d35-306f05cb42e4",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q000_nomad_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "19:47:10, 5.01.2026",
+            "name": "AutoSave-1",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 1971887,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 186738114966,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
