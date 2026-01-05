@@ -1,8 +1,75 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/side_quest/sq_q001_tbug/tbug/01_equip_ping",
+            "trackedQuest": "LocKey#27794",
+            "mainQuest": "LocKey#93496",
+            "debugString": "",
+            "locationName": "LocKey#10962",
+            "playerPosition": {
+                "X": -1179.8035888671876,
+                "Y": 2039.59033203125,
+                "Z": 20.087074279785158
+            },
+            "playTime": 6128.4557949,
+            "playthroughTime": 6128.4557949,
+            "nextSavableEntityID": 9002548,
+            "nextNonSavableEntityID": 10027188,
+            "lifePath": "Nomad",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 4.0,
+            "streetCred": 2.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 5.0,
+            "intelligence": 5.0,
+            "reflexes": 5.0,
+            "technicalAbility": 5.0,
+            "cool": 5.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q000 q001 ",
+            "playthroughID": "69592660fd50a4eb",
+            "pointOfNoReturnId": "",
+            "visitID": "f6ccedaa-311d-48d6-a5d7-801984b63a73",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "q000_nomad_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "23:18:08, 4.01.2026",
+            "name": "AutoSave-19",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 1952075,
+            "isForced": true,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 186738114966,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
