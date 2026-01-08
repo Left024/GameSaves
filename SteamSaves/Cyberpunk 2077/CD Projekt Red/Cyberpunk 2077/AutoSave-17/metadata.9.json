@@ -1,8 +1,79 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/act_01/q105_dollhouse/04_woodman/office",
+            "trackedQuest": "LocKey#8627",
+            "mainQuest": "LocKey#93496",
+            "debugString": "q105_dh_after_tom",
+            "locationName": "LocKey#10966",
+            "playerPosition": {
+                "X": -656.6072998046875,
+                "Y": 741.3690185546875,
+                "Z": 132.41517639160157
+            },
+            "playTime": 21899.0319269,
+            "playthroughTime": 22141.3199208,
+            "nextSavableEntityID": 9004770,
+            "nextNonSavableEntityID": 10072315,
+            "lifePath": "Nomad",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 11.0,
+            "streetCred": 6.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 5.0,
+            "intelligence": 10.0,
+            "reflexes": 5.0,
+            "technicalAbility": 6.0,
+            "cool": 6.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q004 q005 q000 q001 q003 q101 mq010 ma_wat_kab_12 ma_wat_lch_14 ",
+            "playthroughID": "69592660fd50a4eb",
+            "pointOfNoReturnId": "",
+            "visitID": "4be16e63-3732-4d6b-8b97-5267c97ba91c",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q101_done=1",
+                "q003_royce_dead=1",
+                "q000_nomad_background=1",
+                "q003_meredith_won=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "22:58:57, 7.01.2026",
+            "name": "AutoSave-17",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 2607299,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 183640721353,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
