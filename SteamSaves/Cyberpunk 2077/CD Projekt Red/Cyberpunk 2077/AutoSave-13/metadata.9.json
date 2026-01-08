@@ -1,76 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
-            "trackedQuestEntry": "quests/main_quest/prologue/q003_maelstrom/militech/02_meet_militech",
-            "trackedQuest": "LocKey#9467",
-            "mainQuest": "LocKey#93496",
-            "debugString": "ce_wat_nid_11",
-            "locationName": "LocKey#10964",
-            "playerPosition": {
-                "X": -653.4273681640625,
-                "Y": 1796.6126708984376,
-                "Z": 36.58965301513672
-            },
-            "playTime": 10115.6791969,
-            "playthroughTime": 10115.6791969,
-            "nextSavableEntityID": 9002980,
-            "nextNonSavableEntityID": 10039584,
-            "lifePath": "Nomad",
-            "bodyGender": "Male",
-            "brainGender": "Male",
-            "level": 5.0,
-            "streetCred": 3.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 5.0,
-            "intelligence": 6.0,
-            "reflexes": 5.0,
-            "technicalAbility": 5.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q000 q001 ma_wat_kab_12 ",
-            "playthroughID": "69592660fd50a4eb",
-            "pointOfNoReturnId": "",
-            "visitID": "a3d7ce15-9454-42b4-bfd8-7c41e9c19fa8",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q000_nomad_background=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "23:04:18, 5.01.2026",
-            "name": "AutoSave-13",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2057035,
-            "isForced": false,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 186738114966,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": false,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>

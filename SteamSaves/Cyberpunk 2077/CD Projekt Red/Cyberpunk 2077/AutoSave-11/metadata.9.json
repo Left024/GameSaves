@@ -1,76 +1,10 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
-            "trackedQuestEntry": "quests/main_quest/prologue/q004_braindance/finale/exit_judy_workshop",
-            "trackedQuest": "LocKey#9469",
-            "mainQuest": "LocKey#93496",
-            "debugString": "q004_bd_completed",
-            "locationName": "LocKey#10962",
-            "playerPosition": {
-                "X": -1174.330322265625,
-                "Y": 1585.3759765625,
-                "Z": 18.914581298828126
-            },
-            "playTime": 9885.2860681,
-            "playthroughTime": 9885.2860681,
-            "nextSavableEntityID": 9002896,
-            "nextNonSavableEntityID": 10037442,
-            "lifePath": "Nomad",
-            "bodyGender": "Male",
-            "brainGender": "Male",
-            "level": 5.0,
-            "streetCred": 3.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 5.0,
-            "intelligence": 5.0,
-            "reflexes": 5.0,
-            "technicalAbility": 5.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q000 q001 ma_wat_kab_12 ",
-            "playthroughID": "69592660fd50a4eb",
-            "pointOfNoReturnId": "",
-            "visitID": "a3d7ce15-9454-42b4-bfd8-7c41e9c19fa8",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q000_nomad_background=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "23:00:23, 5.01.2026",
-            "name": "AutoSave-11",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2008859,
-            "isForced": false,
-            "isCheckpoint": false,
-            "initialLoadingScreenID": 186738114966,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": false,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>The specified key does not exist.</Message>
+  <RequestId>695F83BC49824C3230BA2014</RequestId>
+  <HostId>steamcloud-sgp.oss-ap-southeast-1.aliyuncs.com</HostId>
+  <Key>FB/21/77/15/1091500/066_8_20EA2739_05B84_5.dat</Key>
+  <EC>0026-00000001</EC>
+  <RecommendDoc>https://api.alibabacloud.com/troubleshoot?q=0026-00000001</RecommendDoc>
+</Error>

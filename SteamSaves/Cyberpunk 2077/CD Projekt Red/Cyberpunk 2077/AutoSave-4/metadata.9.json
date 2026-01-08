@@ -1,78 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
-            "trackedQuestEntry": "quests/main_quest/prologue/q005_heist/cab_ride/talk",
-            "trackedQuest": "LocKey#9470",
-            "mainQuest": "LocKey#93496",
-            "debugString": "q005_cab_ride_start",
-            "locationName": "LocKey#10963",
-            "playerPosition": {
-                "X": -1484.3914794921876,
-                "Y": 1047.51708984375,
-                "Z": 22.920616149902345
-            },
-            "playTime": 12713.2551287,
-            "playthroughTime": 12955.5431226,
-            "nextSavableEntityID": 9003119,
-            "nextNonSavableEntityID": 10047037,
-            "lifePath": "Nomad",
-            "bodyGender": "Male",
-            "brainGender": "Male",
-            "level": 8.0,
-            "streetCred": 4.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 5.0,
-            "intelligence": 8.0,
-            "reflexes": 5.0,
-            "technicalAbility": 6.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q000 q001 q003 ma_wat_kab_12 ",
-            "playthroughID": "69592660fd50a4eb",
-            "pointOfNoReturnId": "",
-            "visitID": "a3d7ce15-9454-42b4-bfd8-7c41e9c19fa8",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q003_royce_dead=1",
-                "q000_nomad_background=1",
-                "q003_meredith_won=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "23:51:44, 5.01.2026",
-            "name": "AutoSave-4",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2179950,
-            "isForced": true,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 186738114966,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": false,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>

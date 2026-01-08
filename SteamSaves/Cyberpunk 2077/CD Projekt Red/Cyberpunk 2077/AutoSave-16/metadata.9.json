@@ -1,76 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
-            "trackedQuestEntry": "quests/main_quest/prologue/q003_maelstrom/maelstrom_deal/04a_talk_through_intercom",
-            "trackedQuest": "LocKey#9467",
-            "mainQuest": "LocKey#93496",
-            "debugString": "q003_jackie_met",
-            "locationName": "LocKey#10964",
-            "playerPosition": {
-                "X": -770.3816528320313,
-                "Y": 2201.998291015625,
-                "Z": 50.53270721435547
-            },
-            "playTime": 10631.5679319,
-            "playthroughTime": 10631.5679319,
-            "nextSavableEntityID": 9003040,
-            "nextNonSavableEntityID": 10041586,
-            "lifePath": "Nomad",
-            "bodyGender": "Male",
-            "brainGender": "Male",
-            "level": 5.0,
-            "streetCred": 3.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 5.0,
-            "intelligence": 6.0,
-            "reflexes": 5.0,
-            "technicalAbility": 5.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q000 q001 ma_wat_kab_12 ",
-            "playthroughID": "69592660fd50a4eb",
-            "pointOfNoReturnId": "",
-            "visitID": "a3d7ce15-9454-42b4-bfd8-7c41e9c19fa8",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q000_nomad_background=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "23:12:54, 5.01.2026",
-            "name": "AutoSave-16",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2077976,
-            "isForced": false,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 186738114966,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": false,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
