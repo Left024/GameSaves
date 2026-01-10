@@ -1,8 +1,82 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "quests/main_quest/act_01/q103_warhead/afterlife/go_afterlife",
+            "trackedQuest": "LocKey#8554",
+            "mainQuest": "LocKey#93496",
+            "debugString": "mq033_after_misty_autosave",
+            "locationName": "LocKey#10963",
+            "playerPosition": {
+                "X": -1547.8203125,
+                "Y": 1185.113037109375,
+                "Z": 16.433013916015626
+            },
+            "playTime": 36846.0992709,
+            "playthroughTime": 37263.8345781,
+            "nextSavableEntityID": 9008760,
+            "nextNonSavableEntityID": 10144749,
+            "lifePath": "Nomad",
+            "bodyGender": "Male",
+            "brainGender": "Male",
+            "level": 18.0,
+            "streetCred": 17.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 8.0,
+            "intelligence": 10.0,
+            "reflexes": 5.0,
+            "technicalAbility": 10.0,
+            "cool": 6.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q004 q005 q000 q001 q003 q105 q101 sq_q001_wakako mq010 ma_wat_kab_12 ma_std_rcr_11 ma_hey_spr_04 ma_wat_lch_14 ",
+            "playthroughID": "69592660fd50a4eb",
+            "pointOfNoReturnId": "",
+            "visitID": "2c459d5b-6878-4c03-87db-fc64ff5811fb",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q101_done=1",
+                "sq032_q105_used=1",
+                "q003_royce_dead=1",
+                "sq032_03_mikoshi_known=1",
+                "q000_nomad_background=1",
+                "sq032_q105_ready=0",
+                "q003_meredith_won=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "14:00:49, 10.01.2026",
+            "name": "AutoSave-16",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 3384212,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 183640721353,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": false,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
