@@ -1,8 +1,93 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA;E118A84B9942C8C4",
+            "trackedQuestEntry": "ep1/quests/main_quest/q301_crash/00_hook/get_to_combat_zone",
+            "trackedQuest": "LocKey#81863",
+            "mainQuest": "LocKey#9860",
+            "debugString": "loc_ma_hey_gle_106_start",
+            "locationName": "LocKey#44392",
+            "playerPosition": {
+                "X": -1378.2021484375,
+                "Y": 1272.8660888671876,
+                "Z": 123.06489562988281
+            },
+            "playTime": 67788.6989155,
+            "playthroughTime": 72697.5049823,
+            "nextSavableEntityID": 9010485,
+            "nextNonSavableEntityID": 10176425,
+            "lifePath": "StreetKid",
+            "bodyGender": "Female",
+            "brainGender": "Female",
+            "level": 21.0,
+            "streetCred": 29.0,
+            "gunslinger": 0.0,
+            "assault": 4.0,
+            "demolition": 3.0,
+            "athletics": 2.0,
+            "brawling": 3.0,
+            "coldBlood": 1.0,
+            "stealth": 3.0,
+            "engineering": 2.0,
+            "crafting": 4.0,
+            "hacking": 3.0,
+            "combatHacking": 3.0,
+            "strength": 4.0,
+            "intelligence": 6.0,
+            "reflexes": 4.0,
+            "technicalAbility": 4.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.3214677  P4CL: 4155897  Stream: //R6.Root/R6.Patch0Hotfix2 ",
+            "finishedQuests": "q004 q005 q000 q001 q003 q112 q110 q105 q104 q101 q103 q108 sq032 sq026 mq038 mq024 sts_wat_lch_01 ma_wat_kab_08 ma_hey_spr_12 sts_wat_kab_07 sts_wbr_hil_07 ",
+            "playthroughID": "5fd1a82d53571dd8",
+            "pointOfNoReturnId": "5fd49b86eb91d0f7",
+            "visitID": "92e55572-162c-4d6a-a32b-388fe675ab1c",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q003_anthony_won=1",
+                "q110_done=1",
+                "sq032_q104_ready=0",
+                "sq032_q112_ready=0",
+                "q101_done=1",
+                "q104_done=1",
+                "q112_done=2",
+                "sq032_q110_ready=0",
+                "q003_royce_dead=1",
+                "sq032_03_mikoshi_known=1",
+                "q000_street_kid_background=1",
+                "ep1_active=1",
+                "q103_rogue_met=1",
+                "q301_active=1",
+                "q112_takemura_dead=1",
+                "sq031_rogue_met_johnny=1",
+                "sq032_q105_ready=0",
+                "q108_done=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "17:03:01, 10.01.2026",
+            "name": "ManualSave-0",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 3673839,
+            "isForced": false,
+            "isCheckpoint": false,
+            "initialLoadingScreenID": 192888460050,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": true,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
