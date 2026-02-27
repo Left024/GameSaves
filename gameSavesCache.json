@@ -2236,9 +2236,17 @@
         }
     },
     "3764200": {
-        "win64_save/data00-1.bin": {
-            "size": "48.67 KB",
-            "time": "2 月 26 日 下午 9:08"
+        "win64_save/data000.bin": {
+            "size": "403.76 KB",
+            "time": "2 月 26 日 下午 10:11"
+        },
+        "win64_save/data001Slot.bin": {
+            "size": "274.73 KB",
+            "time": "2 月 26 日 下午 10:03"
+        },
+        "win64_save/data010Slot.bin": {
+            "size": "403.76 KB",
+            "time": "2 月 26 日 下午 10:15"
         }
     }
 }
