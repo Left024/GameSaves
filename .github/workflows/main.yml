@@ -24,7 +24,7 @@ jobs:
 
       - name: Install requirements
         run: |
-          pip install "git+https://github.com/solsticegamestudios/steam@v1.6.1#egg=steam[client]"
+          pip install "git+https://github.com/solsticegamestudios/steam#egg=steam"
           #pip3 install steampy
           pip install bs4
           pip install html5lib
