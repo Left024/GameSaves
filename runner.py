@@ -1,3 +1,11 @@
+#pip install "git+https://github.com/solsticegamestudios/steam#egg=steam"
+#pip install bs4
+#pip install html5lib
+#pip install protobuf
+#pip install eventemitter
+#pip install gevent
+#pip install wsproto
+
 import steam.guard,time
 #import time
 from base64 import b64decode
