@@ -20,7 +20,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install requirements
         run: |
@@ -28,6 +28,7 @@ jobs:
           #pip3 install steampy
           pip install bs4
           pip install html5lib
+          pip install protobuf
 
       - name: Download saves
         run: |
