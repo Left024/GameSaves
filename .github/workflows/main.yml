@@ -30,6 +30,8 @@ jobs:
           pip install html5lib
           pip install protobuf
           pip install eventemitter
+          pip install gevent
+          pip install wsproto
 
       - name: Download saves
         run: |
