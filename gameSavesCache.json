@@ -2236,25 +2236,21 @@
         }
     },
     "3764200": {
-        "win64_save/data00-1.bin": {
-            "size": "48.67 KB",
-            "time": "3 月 4 日 上午 1:50"
-        },
         "win64_save/data000.bin": {
-            "size": "709.82 KB",
-            "time": "3 月 4 日 上午 1:47"
+            "size": "2.66 MB",
+            "time": "3 月 5 日 上午 1:40"
         },
         "win64_save/data001Slot.bin": {
-            "size": "709.82 KB",
-            "time": "3 月 4 日 上午 1:46"
+            "size": "2.66 MB",
+            "time": "3 月 5 日 上午 1:43"
         },
         "win64_save/data010Slot.bin": {
-            "size": "709.82 KB",
-            "time": "3 月 4 日 上午 1:50"
+            "size": "2.66 MB",
+            "time": "3 月 5 日 上午 1:35"
         },
         "win64_save/data011Slot.bin": {
-            "size": "3.35 MB",
-            "time": "2 月 28 日 上午 3:44"
+            "size": "1.18 MB",
+            "time": "3 月 4 日 上午 2:27"
         },
         "win64_save/data012Slot.bin": {
             "size": "3.43 MB",
@@ -2273,28 +2269,28 @@
             "time": "2 月 28 日 上午 5:02"
         },
         "win64_save/data016Slot.bin": {
-            "size": "3.67 MB",
-            "time": "2 月 28 日 上午 5:25"
+            "size": "1.29 MB",
+            "time": "3 月 4 日 上午 3:16"
         },
         "win64_save/data017Slot.bin": {
-            "size": "3.81 MB",
-            "time": "2 月 28 日 上午 5:34"
+            "size": "1.37 MB",
+            "time": "3 月 4 日 上午 3:11"
         },
         "win64_save/data018Slot.bin": {
-            "size": "3.81 MB",
-            "time": "2 月 28 日 上午 5:49"
+            "size": "1.28 MB",
+            "time": "3 月 4 日 上午 3:09"
         },
         "win64_save/data019Slot.bin": {
-            "size": "3.81 MB",
-            "time": "2 月 28 日 上午 5:58"
+            "size": "1.26 MB",
+            "time": "3 月 4 日 上午 2:59"
         },
         "win64_save/data020Slot.bin": {
-            "size": "3.81 MB",
-            "time": "2 月 28 日 上午 6:04"
+            "size": "1.26 MB",
+            "time": "3 月 4 日 上午 2:38"
         },
         "win64_save/data021Slot.bin": {
-            "size": "3.81 MB",
-            "time": "2 月 28 日 上午 6:05"
+            "size": "854.86 KB",
+            "time": "3 月 4 日 上午 2:14"
         }
     }
 }
