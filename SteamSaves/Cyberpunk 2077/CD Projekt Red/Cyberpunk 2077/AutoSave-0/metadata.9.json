@@ -1,8 +1,76 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
+            "trackedQuestEntry": "quests/main_quest/prologue/q004_braindance/evelyn/go_to_nightclub",
+            "trackedQuest": "LocKey#9469",
+            "mainQuest": "LocKey#93496",
+            "debugString": "q003_jackie_called",
+            "locationName": "LocKey#10962",
+            "playerPosition": {
+                "X": -1174.61083984375,
+                "Y": 2036.251708984375,
+                "Z": 20.07806396484375
+            },
+            "playTime": 5593.1997256,
+            "playthroughTime": 5781.9432009,
+            "nextSavableEntityID": 9002803,
+            "nextNonSavableEntityID": 10030324,
+            "lifePath": "Corporate",
+            "bodyGender": "Female",
+            "brainGender": "Female",
+            "level": 3.0,
+            "streetCred": 2.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 3.0,
+            "intelligence": 6.0,
+            "reflexes": 4.0,
+            "technicalAbility": 6.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q000 q001 ",
+            "playthroughID": "69d035ac5eefe7fc",
+            "pointOfNoReturnId": "",
+            "visitID": "47e166c4-1d43-4200-9087-5dae90d3b2a3",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q000_corpo_background=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "18:35:02, 4.04.2026",
+            "name": "AutoSave-0",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 2086116,
+            "isForced": true,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 186738114966,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": true,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
