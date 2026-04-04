@@ -1,75 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
-            "trackedQuestEntry": "quests/main_quest/prologue/q000_corpo/office/05b_leave_the_office",
-            "trackedQuest": "LocKey#9461",
-            "mainQuest": "LocKey#9461",
-            "debugString": "q000_corpo_to_after_jenkins",
-            "locationName": "LocKey#44355",
-            "playerPosition": {
-                "X": -1406.245849609375,
-                "Y": 93.33213806152344,
-                "Z": 141.20358276367188
-            },
-            "playTime": 603.8853051,
-            "playthroughTime": 603.8853051,
-            "nextSavableEntityID": 9000722,
-            "nextNonSavableEntityID": 10001584,
-            "lifePath": "Corporate",
-            "bodyGender": "Female",
-            "brainGender": "Female",
-            "level": 1.0,
-            "streetCred": 1.0,
-            "gunslinger": 1.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 3.0,
-            "intelligence": 5.0,
-            "reflexes": 4.0,
-            "technicalAbility": 6.0,
-            "cool": 4.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "",
-            "playthroughID": "69d035ac5eefe7fc",
-            "pointOfNoReturnId": "",
-            "visitID": "c54c0d4d-6f20-403d-bebe-3d5a4755d5fb",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "q000_corpo_background=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "06:09:14, 4.04.2026",
-            "name": "AutoSave-0",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 1646184,
-            "isForced": false,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 193330404735,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": true,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
