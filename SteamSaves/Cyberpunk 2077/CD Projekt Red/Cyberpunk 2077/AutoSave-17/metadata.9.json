@@ -1,78 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
-            "trackedQuestEntry": "quests/main_quest/act_01/q101_resurrection/takemura/meet_with_takemura",
-            "trackedQuest": "LocKey#8529",
-            "mainQuest": "LocKey#93496",
-            "debugString": "mq010_start",
-            "locationName": "LocKey#10963",
-            "playerPosition": {
-                "X": -1402.4769287109376,
-                "Y": 1288.520263671875,
-                "Z": 119.45138549804688
-            },
-            "playTime": 20960.7830041,
-            "playthroughTime": 21803.2494637,
-            "nextSavableEntityID": 9004353,
-            "nextNonSavableEntityID": 10065830,
-            "lifePath": "Corporate",
-            "bodyGender": "Female",
-            "brainGender": "Female",
-            "level": 10.0,
-            "streetCred": 5.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 3.0,
-            "intelligence": 14.0,
-            "reflexes": 4.0,
-            "technicalAbility": 6.0,
-            "cool": 4.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q005 q000 q001 q003 ",
-            "playthroughID": "69d035ac5eefe7fc",
-            "pointOfNoReturnId": "",
-            "visitID": "0b0325fd-5ee4-473e-be56-8aca2bff2b90",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q003_royce_dead=1",
-                "q000_corpo_background=1",
-                "q003_meredith_won=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "18:20:00, 6.04.2026",
-            "name": "AutoSave-17",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2365032,
-            "isForced": false,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 183640721353,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": true,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
