@@ -1,8 +1,78 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
+            "trackedQuestEntry": "quests/side_quest/sq025_delamain/03_scan/03_02_scan_delamains",
+            "trackedQuest": "LocKey#12049",
+            "mainQuest": "LocKey#93496",
+            "debugString": "sq025_scanned_angry",
+            "locationName": "LocKey#10956",
+            "playerPosition": {
+                "X": -2176.358154296875,
+                "Y": -1196.5130615234376,
+                "Z": 8.866477966308594
+            },
+            "playTime": 22756.5361487,
+            "playthroughTime": 23599.0026083,
+            "nextSavableEntityID": 9005905,
+            "nextNonSavableEntityID": 10084904,
+            "lifePath": "Corporate",
+            "bodyGender": "Female",
+            "brainGender": "Female",
+            "level": 11.0,
+            "streetCred": 6.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 3.0,
+            "intelligence": 15.0,
+            "reflexes": 4.0,
+            "technicalAbility": 6.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q004 q005 q000 q001 q003 ",
+            "playthroughID": "69d035ac5eefe7fc",
+            "pointOfNoReturnId": "",
+            "visitID": "0b0325fd-5ee4-473e-be56-8aca2bff2b90",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q003_royce_dead=1",
+                "q000_corpo_background=1",
+                "q003_meredith_won=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "18:50:37, 6.04.2026",
+            "name": "AutoSave-13",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 2701030,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 183640721353,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": true,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
