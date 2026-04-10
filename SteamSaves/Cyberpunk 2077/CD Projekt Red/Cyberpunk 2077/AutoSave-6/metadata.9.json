@@ -1,81 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
-            "trackedQuestEntry": "quests/arman3_quest/lizzies_bds/lizzies_bds_ads_01/advert_seen/01_see_menu",
-            "trackedQuest": "LocKey#15142342",
-            "mainQuest": "LocKey#93496",
-            "debugString": "sq018_04_done",
-            "locationName": "LocKey#44365",
-            "playerPosition": {
-                "X": -1256.987060546875,
-                "Y": -994.3775024414063,
-                "Z": 12.051406860351563
-            },
-            "playTime": 31262.1518828,
-            "playthroughTime": 33270.801869,
-            "nextSavableEntityID": 9008364,
-            "nextNonSavableEntityID": 10126271,
-            "lifePath": "Corporate",
-            "bodyGender": "Female",
-            "brainGender": "Female",
-            "level": 14.0,
-            "streetCred": 13.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 3.0,
-            "intelligence": 15.0,
-            "reflexes": 4.0,
-            "technicalAbility": 8.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q005 q000 q001 q003 q101 sq018 ma_hey_spr_11 ",
-            "playthroughID": "69d035ac5eefe7fc",
-            "pointOfNoReturnId": "",
-            "visitID": "9b6b606d-eb78-461e-afa0-b5d3a1a46120",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q101_done=1",
-                "q003_royce_dead=1",
-                "sq018_done=1",
-                "sq018_03a_misty_invited=1",
-                "q000_corpo_background=1",
-                "q003_meredith_won=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "22:07:57, 9.04.2026",
-            "name": "AutoSave-6",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2864385,
-            "isForced": false,
-            "isCheckpoint": false,
-            "initialLoadingScreenID": 183640721353,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": true,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
