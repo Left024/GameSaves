@@ -1,6 +1,6 @@
 SiiNunit
 {
-tutorial_hint_save : _nameless.556c.0190 {
+tutorial_hint_save : _nameless.c9ad.49c0 {
  format_version: 1
  data: 47
  data[0]: hint_save.engine.a
@@ -153,10 +153,10 @@ tutorial_hint_info : hint_save.tow.b {
 
 tutorial_hint_info : hint_save.lights.a {
  hint: hint.lights.a
- state: 0
- show_count: 0
- complete_count: 0
- cooldown_timestamp: 0
+ state: 2
+ show_count: 1
+ complete_count: 1
+ cooldown_timestamp: 2411230907
  cooldown_conditions_active: false
 }
 
