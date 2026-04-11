@@ -1,81 +1,8 @@
-{
-    "RootType": "saveMetadataContainer",
-    "Data": {
-        "metadata": {
-            "gameDefinition": "",
-            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
-            "trackedQuestEntry": "quests/main_quest/act_01/q105_dollhouse/05_leave_dollhouse/leave",
-            "trackedQuest": "LocKey#8627",
-            "mainQuest": "LocKey#93496",
-            "debugString": "q105_dh_woodman_interrogation_success",
-            "locationName": "LocKey#44401",
-            "playerPosition": {
-                "X": -634.9925537109375,
-                "Y": 807.6732177734375,
-                "Z": 128.25222778320313
-            },
-            "playTime": 34906.1221588,
-            "playthroughTime": 37571.8026054,
-            "nextSavableEntityID": 9008503,
-            "nextNonSavableEntityID": 10139762,
-            "lifePath": "Corporate",
-            "bodyGender": "Female",
-            "brainGender": "Female",
-            "level": 14.0,
-            "streetCred": 13.0,
-            "gunslinger": 0.0,
-            "assault": 1.0,
-            "demolition": 1.0,
-            "athletics": 1.0,
-            "brawling": 1.0,
-            "coldBlood": 1.0,
-            "stealth": 1.0,
-            "engineering": 1.0,
-            "crafting": 1.0,
-            "hacking": 1.0,
-            "combatHacking": 1.0,
-            "strength": 3.0,
-            "intelligence": 15.0,
-            "reflexes": 4.0,
-            "technicalAbility": 8.0,
-            "cool": 5.0,
-            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "finishedQuests": "q004 q005 q000 q001 q003 q101 sq018 ma_hey_spr_11 ",
-            "playthroughID": "69d035ac5eefe7fc",
-            "pointOfNoReturnId": "",
-            "visitID": "00cd3a25-e532-477b-b280-24020315e517",
-            "buildSKU": "",
-            "buildPatch": "2.31",
-            "difficulty": "Easy",
-            "facts": [
-                "player_drunk=0",
-                "q101_done=1",
-                "q003_royce_dead=1",
-                "sq018_done=1",
-                "sq018_03a_misty_invited=1",
-                "q000_corpo_background=1",
-                "q003_meredith_won=1"
-            ],
-            "saveVersion": 269,
-            "gameVersion": 2310,
-            "timestampString": "22:53:53, 10.04.2026",
-            "name": "AutoSave-12",
-            "userName": "",
-            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
-            "platform": "pc",
-            "censorFlags": "",
-            "buildConfiguration": "final",
-            "fileSize": 2915130,
-            "isForced": false,
-            "isCheckpoint": true,
-            "initialLoadingScreenID": 183640721353,
-            "isStoryMode": false,
-            "isPointOfNoReturn": false,
-            "isEndGameSave": false,
-            "isModded": true,
-            "additionalContentIds": [
-                "EP1"
-            ]
-        }
-    }
-}
+<html>
+<head>
+<title>404 Not Found</title>
+</head>
+<body>
+<h1>Not Found</h1>
+</body>
+</html>
