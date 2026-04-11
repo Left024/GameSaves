@@ -1,8 +1,84 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "E118A84B9942C8C4;6B577A51814903CA",
+            "trackedQuestEntry": "quests/side_quest/sq_q001_wakako/wakako/02_reward",
+            "trackedQuest": "LocKey#12437",
+            "mainQuest": "LocKey#93496",
+            "debugString": "ce_wat_nid_19",
+            "locationName": "LocKey#10964",
+            "playerPosition": {
+                "X": -1576.220703125,
+                "Y": 2249.2646484375,
+                "Z": 18.885757446289064
+            },
+            "playTime": 37486.9893542,
+            "playthroughTime": 40446.3837048,
+            "nextSavableEntityID": 9008628,
+            "nextNonSavableEntityID": 10158104,
+            "lifePath": "Corporate",
+            "bodyGender": "Female",
+            "brainGender": "Female",
+            "level": 15.0,
+            "streetCred": 15.0,
+            "gunslinger": 0.0,
+            "assault": 1.0,
+            "demolition": 1.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 1.0,
+            "engineering": 1.0,
+            "crafting": 1.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 3.0,
+            "intelligence": 15.0,
+            "reflexes": 4.0,
+            "technicalAbility": 9.0,
+            "cool": 5.0,
+            "initialBuildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "finishedQuests": "q004 q005 q000 q001 q003 q101 sq018 sq_q001_wakako ma_wat_kab_08 ma_hey_spr_11 ",
+            "playthroughID": "69d035ac5eefe7fc",
+            "pointOfNoReturnId": "",
+            "visitID": "fdcaf3bd-1d74-43c0-8196-c01c70fe3ff8",
+            "buildSKU": "",
+            "buildPatch": "2.31",
+            "difficulty": "Easy",
+            "facts": [
+                "player_drunk=0",
+                "q101_done=1",
+                "sq032_q105_used=1",
+                "q003_royce_dead=1",
+                "sq018_done=1",
+                "sq032_03_mikoshi_known=1",
+                "sq018_03a_misty_invited=1",
+                "q000_corpo_background=1",
+                "sq032_q105_ready=0",
+                "q003_meredith_won=1"
+            ],
+            "saveVersion": 269,
+            "gameVersion": 2310,
+            "timestampString": "14:28:59, 11.04.2026",
+            "name": "AutoSave-9",
+            "userName": "",
+            "buildID": "3.0.5294808  P4CL: 9778208  Stream: //R6.Root/R6.Release ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 3055301,
+            "isForced": false,
+            "isCheckpoint": true,
+            "initialLoadingScreenID": 183640721353,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false,
+            "isModded": true,
+            "additionalContentIds": [
+                "EP1"
+            ]
+        }
+    }
+}
