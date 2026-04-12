@@ -1,6 +1,6 @@
 SiiNunit
 {
-tutorial_hint_save : _nameless.c9ad.49c0 {
+tutorial_hint_save : _nameless.1.0780.70b0 {
  format_version: 1
  data: 47
  data[0]: hint_save.engine.a
@@ -414,10 +414,10 @@ tutorial_hint_info : hint_save.world_map.a {
 
 tutorial_hint_info : hint_save.pause.a {
  hint: hint.pause.a
- state: 0
- show_count: 0
+ state: 2
+ show_count: 1
  complete_count: 0
- cooldown_timestamp: 0
+ cooldown_timestamp: 2615360716
  cooldown_conditions_active: false
 }
 
