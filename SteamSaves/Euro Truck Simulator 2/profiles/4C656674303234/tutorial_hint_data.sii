@@ -1,6 +1,6 @@
 SiiNunit
 {
-tutorial_hint_save : _nameless.1.0780.70b0 {
+tutorial_hint_save : _nameless.555f.5910 {
  format_version: 1
  data: 47
  data[0]: hint_save.engine.a
@@ -352,9 +352,9 @@ tutorial_hint_info : hint_save.cam_int.a {
 tutorial_hint_info : hint_save.cam_ext.a {
  hint: hint.cam_ext.a
  state: 0
- show_count: 1
+ show_count: 2
  complete_count: 0
- cooldown_timestamp: 3667265218
+ cooldown_timestamp: 7287371428
  cooldown_conditions_active: false
 }
 
