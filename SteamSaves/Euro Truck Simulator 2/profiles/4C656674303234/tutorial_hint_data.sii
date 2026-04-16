@@ -1,6 +1,6 @@
 SiiNunit
 {
-tutorial_hint_save : _nameless.33ee.2800 {
+tutorial_hint_save : _nameless.9cb5.eee0 {
  format_version: 1
  data: 47
  data[0]: hint_save.engine.a
@@ -442,9 +442,9 @@ tutorial_hint_info : hint_save.photo_trophy.a {
 tutorial_hint_info : hint_save.viewpoint.a {
  hint: hint.viewpoint.a
  state: 0
- show_count: 0
+ show_count: 1
  complete_count: 0
- cooldown_timestamp: 0
+ cooldown_timestamp: 18801760059
  cooldown_conditions_active: false
 }
 
