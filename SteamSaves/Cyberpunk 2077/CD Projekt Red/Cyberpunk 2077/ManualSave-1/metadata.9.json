@@ -1,8 +1,68 @@
-<html>
-<head>
-<title>404 Not Found</title>
-</head>
-<body>
-<h1>Not Found</h1>
-</body>
-</html>
+{
+    "RootType": "saveMetadataContainer",
+    "Data": {
+        "metadata": {
+            "gameDefinition": "",
+            "activeQuests": "6B577A51814903CA",
+            "trackedQuestEntry": "quests/main_quest/act_01/q105_03_braindance_studio/06_finding_studio/look_for_dealer",
+            "trackedQuest": "LocKey#8629",
+            "mainQuest": "LocKey#8554",
+            "debugString": "",
+            "locationName": "LocKey#10966",
+            "playerPosition": {
+                "X": -665.149658203125,
+                "Y": 846.9133911132813,
+                "Z": 19.494773864746095
+            },
+            "playTime": 24204.5629034,
+            "playthroughTime": 24825.7090304,
+            "nextSavableEntityID": 9004464,
+            "nextNonSavableEntityID": 10047712,
+            "lifePath": "StreetKid",
+            "bodyGender": "Female",
+            "brainGender": "Female",
+            "level": 9.0,
+            "streetCred": 7.0,
+            "gunslinger": 4.0,
+            "assault": 4.0,
+            "demolition": 2.0,
+            "athletics": 1.0,
+            "brawling": 1.0,
+            "coldBlood": 1.0,
+            "stealth": 2.0,
+            "engineering": 1.0,
+            "crafting": 2.0,
+            "hacking": 1.0,
+            "combatHacking": 1.0,
+            "strength": 4.0,
+            "intelligence": 6.0,
+            "reflexes": 4.0,
+            "technicalAbility": 4.0,
+            "cool": 4.0,
+            "initialBuildID": "3.0.3214677  P4CL: 4155897  Stream: //R6.Root/R6.Patch0Hotfix2 ",
+            "finishedQuests": "q004 q005 q000 q001 q003 q101 ma_wat_kab_08 ",
+            "playthroughID": "5fd1a82d53571dd8",
+            "pointOfNoReturnId": "",
+            "visitID": "ae28b8f5-91ba-4652-bf6b-0e6042ee3ad6",
+            "buildSKU": "",
+            "buildPatch": "1.03",
+            "difficulty": "Easy",
+            "saveVersion": 193,
+            "gameVersion": 7,
+            "timestampString": "12:47:13, 11.12.2020",
+            "name": "ManualSave-1",
+            "userName": "",
+            "buildID": "3.0.3214677  P4CL: 4155897  Stream: //R6.Root/R6.Patch0Hotfix2 ",
+            "platform": "pc",
+            "censorFlags": "",
+            "buildConfiguration": "final",
+            "fileSize": 2235739,
+            "isForced": false,
+            "isCheckpoint": false,
+            "initialLoadingScreenID": 183640721353,
+            "isStoryMode": false,
+            "isPointOfNoReturn": false,
+            "isEndGameSave": false
+        }
+    }
+}
