@@ -57,3 +57,8 @@ jobs:
           git add .
           git commit -m "update"
           git push
+
+      - name: Squash old commits
+        run: |
+          export TZ='Asia/Shanghai'
+          python3 squash.py

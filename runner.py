@@ -58,7 +58,7 @@ def steamLogin():
     user = wa.WebAuth()
     try:
         t = time.time()
-        user.login(username='Left024',password=argv['passWord'],code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret'] + '=' * (-len(argv['sharedSecret']) % 4)),int(t)))
+        user.login(username=argv['userName'],password=argv['passWord'],code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret'] + '=' * (-len(argv['sharedSecret']) % 4)),int(t)))
     except wa.TwoFactorCodeRequired:
         t = time.time()
         user.login(code=steam.guard.generate_twofactor_code_for_time(b64decode(argv['sharedSecret']),int(t)))
@@ -89,7 +89,7 @@ def downloadSteamGamesSavesWithGameID(session,id,gameName):
                 tds = tr.find_all('td')
                 fileName=tds[1].contents[0][1:-1]
                 try:
-                    if gameSavesCache[str(id)][fileName]['size']!=tds[2].contents[0][1:-1] and gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
+                    if gameSavesCache[str(id)][fileName]['time']!=tds[3].contents[0][1:]:
                         if fileName.rfind("/")!=-1:
                             if not os.path.exists("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")]):
                                 os.makedirs("SteamSaves/"+gameName+"/"+fileName[:fileName.rfind("/")])
@@ -171,7 +171,7 @@ argv=getArgv()
 #url="https://store.steampowered.com/account/remotestorageapp/?appid=313340"
 #res=user.session.get(url)
 #print(res.text)
-BlackList=[313340,578080]
+BlackList=[313340,578080,2483190]
 needDownload=False
 if 'response' in ownedGames:
     for id in ownedGames['response']['games']:
