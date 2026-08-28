@@ -1,6 +1,6 @@
 SiiNunit
 {
-tutorial_hint_save : _nameless.cba5.df30 {
+tutorial_hint_save : _nameless.c783.6848 {
  format_version: 1
  data: 47
  data[0]: hint_save.engine.a
@@ -73,9 +73,9 @@ tutorial_hint_info : hint_save.engine.b {
 tutorial_hint_info : hint_save.engine.c {
  hint: hint.engine.c
  state: 0
- show_count: 6
- complete_count: 6
- cooldown_timestamp: 63505820647
+ show_count: 17
+ complete_count: 17
+ cooldown_timestamp: 159990545693
  cooldown_conditions_active: false
 }
 
@@ -334,9 +334,9 @@ tutorial_hint_info : hint_save.wipers.a {
 tutorial_hint_info : hint_save.wipers.b {
  hint: hint.wipers.b
  state: 0
- show_count: 3
- complete_count: 3
- cooldown_timestamp: 30830275031
+ show_count: 7
+ complete_count: 7
+ cooldown_timestamp: 99509802125
  cooldown_conditions_active: false
 }
 
