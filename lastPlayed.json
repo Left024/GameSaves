@@ -81,7 +81,7 @@
     },
     "227300": {
         "name": "Euro Truck Simulator 2",
-        "rtime_last_played": 1787282507
+        "rtime_last_played": 1788001590
     },
     "210770": {
         "name": "Sanctum 2",
@@ -289,7 +289,7 @@
     },
     "250900": {
         "name": "The Binding of Isaac: Rebirth",
-        "rtime_last_played": 1787458113
+        "rtime_last_played": 1787930682
     },
     "319630": {
         "name": "Life is Strange™",
@@ -449,7 +449,7 @@
     },
     "431960": {
         "name": "Wallpaper Engine",
-        "rtime_last_played": 1787452615
+        "rtime_last_played": 1788009833
     },
     "391220": {
         "name": "Rise of the Tomb Raider",
@@ -1177,6 +1177,10 @@
     },
     "312520": {
         "name": "Rain World",
+        "rtime_last_played": 0
+    },
+    "870780": {
+        "name": "Control Ultimate Edition",
         "rtime_last_played": 0
     }
 }
