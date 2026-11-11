@@ -2304,13 +2304,9 @@
         }
     },
     "4348910": {
-        "Questing Goose Studio/Probably Stolen/SaveFile.es3": {
-            "size": "3.16 KB",
-            "time": "11 月 11 日 上午 3:43"
-        },
         "Questing Goose Studio/Probably Stolen/saves_index.es3": {
             "size": "4.24 KB",
-            "time": "11 月 11 日 上午 6:28"
+            "time": "11 月 11 日 上午 10:31"
         },
         "Questing Goose Studio/Probably Stolen/save_0.es3": {
             "size": "517.3 KB",
@@ -2365,8 +2361,8 @@
             "time": "11 月 8 日 上午 8:57"
         },
         "Questing Goose Studio/Probably Stolen/save_3.es3": {
-            "size": "4.5 MB",
-            "time": "11 月 11 日 上午 6:28"
+            "size": "6.25 MB",
+            "time": "11 月 11 日 上午 10:31"
         },
         "Questing Goose Studio/Probably Stolen/save_3_day59_20261110-171115.es3": {
             "size": "2.83 MB",
@@ -2404,22 +2400,6 @@
             "size": "3.47 MB",
             "time": "11 月 10 日 上午 3:50"
         },
-        "Questing Goose Studio/Probably Stolen/save_3_day77_20261111-040930.es3": {
-            "size": "4.53 MB",
-            "time": "11 月 10 日 下午 12:09"
-        },
-        "Questing Goose Studio/Probably Stolen/save_3_day78_20261111-043719.es3": {
-            "size": "4.58 MB",
-            "time": "11 月 10 日 下午 12:37"
-        },
-        "Questing Goose Studio/Probably Stolen/save_3_day79_20261111-052220.es3": {
-            "size": "4.33 MB",
-            "time": "11 月 10 日 下午 1:22"
-        },
-        "Questing Goose Studio/Probably Stolen/save_3_day80_20261111-155256.es3": {
-            "size": "4.63 MB",
-            "time": "11 月 10 日 下午 11:52"
-        },
         "Questing Goose Studio/Probably Stolen/save_3_day81_20261111-162616.es3": {
             "size": "4.59 MB",
             "time": "11 月 11 日 上午 12:26"
@@ -2439,6 +2419,22 @@
         "Questing Goose Studio/Probably Stolen/save_3_day85_20261111-184040.es3": {
             "size": "4.94 MB",
             "time": "11 月 11 日 上午 2:40"
+        },
+        "Questing Goose Studio/Probably Stolen/save_3_day86_20261111-222836.es3": {
+            "size": "4.5 MB",
+            "time": "11 月 11 日 上午 6:28"
+        },
+        "Questing Goose Studio/Probably Stolen/save_3_day87_20261111-232214.es3": {
+            "size": "5.15 MB",
+            "time": "11 月 11 日 上午 7:22"
+        },
+        "Questing Goose Studio/Probably Stolen/save_3_day88_20261111-235648.es3": {
+            "size": "4.68 MB",
+            "time": "11 月 11 日 上午 7:56"
+        },
+        "Questing Goose Studio/Probably Stolen/save_3_day89_20261112-011451.es3": {
+            "size": "5.35 MB",
+            "time": "11 月 11 日 上午 9:14"
         }
     }
 }
