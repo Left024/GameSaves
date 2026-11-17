@@ -1,0 +1,14 @@
+{
+    "version": 6,
+    "date": 0,
+    "modio_user_id": 0,
+    "modio_reload_result": 3,
+    "enabled_mods": [],
+    "mods_config": {
+        "BooleanConfigs": [],
+        "FloatConfigs": [],
+        "IntConfigs": [],
+        "KeybindConfigs": [],
+        "ComboConfigs": []
+    }
+}

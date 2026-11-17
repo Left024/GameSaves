@@ -1,0 +1,10 @@
+{
+    "hdr_user_settings": [
+        {
+            "monitorName": "Generic Non-PnP Monitor",
+            "minBrightness": 0.0099999997,
+            "maxBrightness": 1499.0,
+            "paperWhiteLevel": 250.0
+        }
+    ]
+}
